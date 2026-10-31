@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://valenca-tech.github.io/doido-varrido-show/sitemap.xml

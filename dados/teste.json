@@ -1,0 +1,52 @@
+{
+ "_leia": "Teste 'Quem é você em Buraco Fundo?'. Cada opção soma um ponto para o morador do campo 'resultado' (id do personagem). Ganha quem somar mais; no empate, vale a resposta mais recente.",
+ "titulo": "Quem é você em Buraco Fundo?",
+ "chamada": "Cinco perguntas, nenhuma resposta errada. No fim, o vilarejo te diz quem você seria por lá.",
+ "perguntas": [
+  {
+   "texto": "Segunda-feira de manhã em Buraco Fundo. Qual é a sua?",
+   "opcoes": [
+    {"texto": "Já acordo reclamando do galo, do sol e da poeira.", "resultado": "ze-pavio"},
+    {"texto": "Passo um café e aviso que hoje vai dar tudo certo.", "resultado": "ze-tonhim-cafe-doce"},
+    {"texto": "Segunda? Eu resolvo isso na terça.", "resultado": "ze-encostado"},
+    {"texto": "Vou pra calçada ver quem passou com quem.", "resultado": "socorrinha-calada"}
+   ]
+  },
+  {
+   "texto": "Chegou uma novidade na praça. Você...",
+   "opcoes": [
+    {"texto": "Espalha pra vila inteira antes do almoço.", "resultado": "socorrinha-calada"},
+    {"texto": "Conta de novo, só que com um final melhor.", "resultado": "ze-conversa"},
+    {"texto": "Começa falando da novidade e termina explicando o sentido da vida.", "resultado": "ze-fora-de-prumo"},
+    {"texto": "Reclama que ninguém te contou primeiro.", "resultado": "ze-pavio"}
+   ]
+  },
+  {
+   "texto": "Onde te acham numa tarde quente?",
+   "opcoes": [
+    {"texto": "No balcão do Buteco do Zé Coco, filosofando.", "resultado": "ze-fora-de-prumo"},
+    {"texto": "Na rede, debaixo do umbuzeiro.", "resultado": "ze-encostado"},
+    {"texto": "Na feira, com o bule de café na mão.", "resultado": "ze-tonhim-cafe-doce"},
+    {"texto": "Na roda de conversa, jurando que pescou uma baleia no açude.", "resultado": "ze-conversa"}
+   ]
+  },
+  {
+   "texto": "Um vizinho pede ajuda. Você...",
+   "opcoes": [
+    {"texto": "Ajuda, mas reclama do começo ao fim.", "resultado": "ze-pavio"},
+    {"texto": "Ajuda com toda a vontade e, sem querer, piora tudo.", "resultado": "ze-tonhim-cafe-doce"},
+    {"texto": "Promete ajudar... assim que descansar.", "resultado": "ze-encostado"},
+    {"texto": "Dá um conselho que ninguém entende, mas todo mundo acha bonito.", "resultado": "ze-fora-de-prumo"}
+   ]
+  },
+  {
+   "texto": "Qual frase é a sua cara?",
+   "opcoes": [
+    {"texto": "Se eu contar a verdade, ninguém acredita. Aí eu invento uma melhor!", "resultado": "ze-conversa"},
+    {"texto": "Calada eu num fico não!", "resultado": "socorrinha-calada"},
+    {"texto": "Enquanto tiver café e esperança, a derrota ainda não chegou!", "resultado": "ze-tonhim-cafe-doce"},
+    {"texto": "Se o mundo tá girando, o problema é dele... eu tô parado.", "resultado": "ze-fora-de-prumo"}
+   ]
+  }
+ ]
+}

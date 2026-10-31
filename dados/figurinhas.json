@@ -1,0 +1,31 @@
+{
+ "_leia": "Figurinhas grátis do WhatsApp. 'personagem' é o id do recorte em insumos/recortes. Depois de mudar: node ferramentas/figurinhas.mjs e python gerar.py",
+ "nome_pacote": "Doido Varrido Show",
+ "autor": "Silfarnney Valença",
+ "link_pacote": "",
+ "figurinhas": [
+  {"personagem": "silfarnney-valenca", "texto": "Se é pra ser doido, seja com elegância!"},
+  {"personagem": "ze-pavio", "texto": "Oxente!"},
+  {"personagem": "raimunda", "texto": "A chinela é maior!"},
+  {"personagem": "ze-tonhim-cafe-doce", "texto": "Bom dia, cabra! Tem café?"},
+  {"personagem": "ze-encostado", "texto": "Vou fazer... só num sei quando."},
+  {"personagem": "ze-fora-de-prumo", "texto": "O mundo gira. Eu tô parado."},
+  {"personagem": "ze-conversa", "texto": "Aí eu invento uma melhor!"},
+  {"personagem": "ze-promessa", "texto": "O melhor ainda tá sendo prometido!"},
+  {"personagem": "coloral", "texto": "Quem tem uma lata, tem uma orquestra!"},
+  {"personagem": "ze-coco", "texto": "Saia sorrindo... mas pague a conta!"},
+  {"personagem": "ze-fiado", "texto": "Fiado só amanhã."},
+  {"personagem": "ze-pega-ligeiro", "texto": "Peguei foi ligeiro!"},
+  {"personagem": "ze-corneteiro", "texto": "Plantão extraordinário!"},
+  {"personagem": "ze-bola-murcha", "texto": "Foi estratégia."},
+  {"personagem": "ze-reza-forte", "texto": "Tenha fé, meu filho."},
+  {"personagem": "professora-marinalva", "texto": "Tem hora que eu sobrevivo."},
+  {"personagem": "ze-piloia", "texto": "A desgraça trouxe as prima tudim!"},
+  {"personagem": "ze-barrao", "texto": "A culpa num é minha se eu sou bonito."},
+  {"personagem": "ze-massilon", "texto": "Quem desiste da cantada morre solteiro!"},
+  {"personagem": "jandira-raioforte", "texto": "Cantada ruim? Pode voltar."},
+  {"personagem": "mirela-da-lua", "texto": "Quem fala demais tem pouco a dizer."},
+  {"personagem": "verinha-valenca", "texto": "Pode ser doido, mas é meu doido."},
+  {"personagem": "ze-mochila", "texto": "Pois era eu."}
+ ]
+}

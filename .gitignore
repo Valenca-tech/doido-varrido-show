@@ -1,0 +1,7 @@
+# material original e notas internas: não vão para o repositório público
+insumos/
+previa/
+artes/
+dados/comentarios_candidatos.json
+__pycache__/
+*.pyc

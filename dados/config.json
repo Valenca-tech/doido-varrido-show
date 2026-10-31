@@ -1,0 +1,218 @@
+{
+ "_leia": "Dados que aparecem no site. Campo vazio esconde o botão ou o bloco correspondente. Depois de mudar, rode: python gerar.py",
+ "nome": "O Doido Varrido Show",
+ "criador": "Silfarnney Valença",
+ "endereco_site": "https://valenca-tech.github.io/doido-varrido-show",
+ "frase_capa": "O forró mais doido do Brasil",
+ "_quem_faz": "Seção 'Quem faz?' da página inicial. A idade não se atualiza sozinha: troque todo ano. 'videos' são ids de vídeos do canal.",
+ "quem_faz": {
+  "ativo": true,
+  "nome_completo": "Silfarnney Asevedo Valença",
+  "idade": 55,
+  "nasceu": "São Bento do Una (PE)",
+  "mora": "Imperatriz (MA)",
+  "paragrafos": [
+   "Nasceu em São Bento do Una, no agreste de Pernambuco, e hoje mora em Imperatriz, no Maranhão, com a esposa, Vera, e os dois filhos.",
+   "Foi da terra natal que ele tirou a inspiração para o Vilarejo Buraco Fundo: a praça, a feira, os causos contados na calçada e o jeito de falar do povo. No canal, ele assina letra e música e dá vida aos moradores da vila."
+  ],
+  "foto": "img/silfarnney-real.webp",
+  "videos": [
+   {
+    "id": "16H1MWS6kR8",
+    "rotulo": "Ver o vídeo “Finalmente apareci!”"
+   },
+   {
+    "id": "mLL4TA0IvEc",
+    "rotulo": "Ouvir “São Bento do Una, Meu Eterno Abrigo”"
+   }
+  ]
+ },
+ "descricao": "Música cômica, embolada, cordel e os causos do Vilarejo Buraco Fundo, com Silfarnney Valença.",
+ "redes": {
+  "youtube": "https://www.youtube.com/@odoidovarridooficial",
+  "instagram": "https://www.instagram.com/odoidovarridooficial/",
+  "facebook": "https://www.facebook.com/SilfarnneyValenca",
+  "tiktok": "https://www.tiktok.com/@odoidovarridooficial",
+  "kwai": "",
+  "canal_whatsapp": ""
+ },
+ "whatsapp": "5599981478389",
+ "pix": {
+  "chave": "+5599981478389",
+  "como_aparece": "(99) 98147-8389",
+  "tipo": "celular"
+ },
+ "servicos": [
+  {
+   "ativo": true,
+   "titulo": "Música personalizada",
+   "texto": "Uma música cômica feita sob encomenda, com o nome e as histórias de quem você quer homenagear, no ritmo que você escolher: forró, sertanejo, brega, pisadinha, o que combinar com a pessoa. Pronta em até 7 dias.",
+   "botao": "Pedir minha música",
+   "mensagem": "Olá! Vim pelo site e quero uma música personalizada do Doido Varrido Show.",
+   "preco": "A partir de R$ 129"
+  },
+  {
+   "ativo": true,
+   "titulo": "Jingle para o seu comércio",
+   "texto": "Propaganda cantada no ritmo que combina com a sua loja, para carro de som, rádio, Instagram e status do WhatsApp. O cliente lembra do seu nome porque riu dele. Pronto em até 7 dias.",
+   "botao": "Pedir um jingle",
+   "mensagem": "Olá! Vim pelo site e quero um jingle do Doido Varrido Show para o meu comércio.",
+   "preco": "A partir de R$ 249"
+  },
+  {
+   "ativo": true,
+   "titulo": "Sua marca nos vídeos",
+   "texto": "Seu produto citado numa música, mostrado num episódio do Vilarejo Buraco Fundo ou divulgado nos posts do Instagram e do Facebook.",
+   "botao": "Ver formatos e números",
+   "link": "patrocinio.html",
+   "mensagem": "Olá! Vim pelo site e quero anunciar a minha marca nos vídeos do Doido Varrido Show.",
+   "preco": "A partir de R$ 100"
+  },
+  {
+   "ativo": false,
+   "titulo": "Apresentação em eventos",
+   "texto": "Silfarnney Valença ao vivo com o repertório do canal em festas, eventos de empresa e confraternizações.",
+   "botao": "Consultar data",
+   "mensagem": "Olá! Vim pelo site e quero consultar uma data para apresentação do Doido Varrido Show."
+  }
+ ],
+ "em_breve": {
+  "ativo": true,
+  "titulo": "Na banca de Buraco Fundo",
+  "texto": "Estamos preparando camisetas do vilarejo, com os moradores e os bordões de Buraco Fundo.",
+  "botao": "Quero ser avisado",
+  "mensagem": "Olá! Quero ser avisado quando saírem as camisetas de Buraco Fundo."
+ },
+ "_plantao": "Letreiro que corre embaixo da capa. Tudo tirado da bíblia do Vilarejo Buraco Fundo.",
+ "plantao": [
+  "Zé Fiado avisa: fiado só amanhã",
+  "Seu Lídio Promessa promete uma ponte antes mesmo de existir o riacho",
+  "Zé Encostado parou no meio da caminhada para descansar da caminhada",
+  "Zé Barrão vendeu o mesmo bode pela terceira vez",
+  "Zé Conversa jura que pescou uma baleia no Açude Velho",
+  "Prefeitura confirma: 97% dos homens da vila são Zés",
+  "Zé Pega-Ligeiro prendeu primeiro e vai investigar depois",
+  "Zé Bola Murcha perdeu de 5 a 0, mas garante que foi estratégia",
+  "Zé Pavio reclamou tanto da seca que a chuva desistiu de aparecer",
+  "Coloral ensaia na lata de goiaba em frente à padaria"
+ ],
+ "_chamadas_redes": "Balões que chamam para seguir as redes. 'personagem' é o id do morador (nome do arquivo em site/personagens).",
+ "chamadas_redes": [
+  {
+   "rede": "youtube",
+   "personagem": "coloral",
+   "fala": "Toda semana tem música nova no canal. Se inscreve e ativa o sininho!",
+   "botao": "Inscrever-se no YouTube"
+  },
+  {
+   "rede": "instagram",
+   "personagem": "socorrinha-calada",
+   "fala": "As novidades da vila saem primeiro no Instagram. Eu que não ia ficar calada!",
+   "botao": "Seguir no Instagram"
+  },
+  {
+   "rede": "facebook",
+   "personagem": "ze-tonhim-cafe-doce",
+   "fala": "No Facebook a conversa rende igual café de feira. Chega mais!",
+   "botao": "Seguir no Facebook"
+  },
+  {
+   "rede": "whatsapp",
+   "personagem": "ze-pavio",
+   "fala": "Quer falar com o Doido? Chama no WhatsApp. Mas sem conversa fiada, cabra!",
+   "botao": "Chamar no WhatsApp"
+  }
+ ],
+ "pregao": {
+  "personagem": "ze-corneteiro",
+  "titulo": "Plantão extraordinário!",
+  "fala": "O Doido Varrido tá nas redes. Segue lá, visse?"
+ },
+ "apoie": {
+  "personagem": "ze-fiado",
+  "fala": "Fiado só amanhã."
+ },
+ "_vire_morador": "Oferta de caricatura no estilo da vila. 'preco' e 'prazo' vazios não aparecem; o botão pede orçamento.",
+ "vire_morador": {
+  "ativo": true,
+  "titulo": "Vire morador de Buraco Fundo",
+  "texto": "Mande uma foto e conte como a pessoa é. A gente cria a caricatura no estilo da vila, com apelido e bordão, e a pessoa passa a morar em Buraco Fundo. Serve de presente de aniversário, homenagem ou só pra mangar de um amigo.",
+  "fala": "Seja bem-vindo à vila! Aqui todo mundo vira Zé, mas você escolhe o apelido.",
+  "passos": [
+   "Você manda a foto pelo WhatsApp e conta o jeito da pessoa: o que ela fala, o que apronta, do que gosta.",
+   "A gente cria o apelido, o bordão e a caricatura no estilo de Buraco Fundo.",
+   "Você recebe a arte pronta para postar e mandar no WhatsApp."
+  ],
+  "pacotes": [
+   {
+    "nome": "Morador",
+    "inclui": [
+     "Caricatura no estilo da vila",
+     "Apelido e bordão",
+     "Arte para WhatsApp e Instagram"
+    ],
+    "preco": "R$ 49",
+    "prazo": "até 7 dias",
+    "mensagem": "Olá! Quero virar morador de Buraco Fundo (pacote Morador)."
+   },
+   {
+    "nome": "Morador famoso",
+    "inclui": [
+     "Tudo do pacote Morador",
+     "Aparece num vídeo do Vilarejo Buraco Fundo",
+     "Citado pelo nome na história"
+    ],
+    "preco": "R$ 149",
+    "prazo": "até 7 dias",
+    "mensagem": "Olá! Quero virar morador famoso de Buraco Fundo, aparecendo num vídeo."
+   }
+  ],
+  "aviso": "A foto é usada só para fazer a caricatura."
+ },
+ "_patrocinio": "Página de patrocínio (patrocinio.html) para mandar a comerciantes. Números do YouTube são automáticos; os das outras redes são digitados aqui, com a data.",
+ "patrocinio": {
+  "ativo": true,
+  "titulo": "Sua marca em Buraco Fundo",
+  "texto": "O Vilarejo Buraco Fundo tem mercadinho, buteco, padaria, rádio e praça. Sua loja pode virar parte da vila: o anúncio entra na piada e o público ri junto, em vez de pular.",
+  "publico": "Gente que gosta de humor nordestino, forró, causo e cultura popular, de jovens a famílias, assistindo no YouTube, no Facebook, no Instagram e no TikTok.",
+  "redes_numeros": {
+   "instagram": 4565,
+   "facebook": 2968,
+   "data": "outubro de 2026"
+  },
+  "formatos": [
+   {
+    "nome": "Oferecimento",
+    "texto": "Seu nome na abertura e no fim de um episódio das Piadas do Dia ou de uma música nova.",
+    "preco": "A partir de R$ 250"
+   },
+   {
+    "nome": "Sua loja na vila",
+    "texto": "Uma casa da vila vira a sua loja: fachada com a sua marca no cenário de um vídeo.",
+    "preco": "A partir de R$ 300"
+   },
+   {
+    "nome": "Plantão extraordinário",
+    "texto": "Zé Corneteiro anuncia a sua promoção num vídeo curto, do jeito dele, para o Instagram, o TikTok e o status do WhatsApp.",
+    "preco": "A partir de R$ 200"
+   },
+   {
+    "nome": "Na letra da música",
+    "texto": "O nome da sua loja entra numa música do Doido Varrido, cantado no meio da história.",
+    "preco": "A partir de R$ 400"
+   },
+   {
+    "nome": "Post nas redes",
+    "texto": "Divulgação da sua marca nos posts do Instagram e do Facebook do Doido Varrido.",
+    "preco": "A partir de R$ 100"
+   }
+  ],
+  "passos": [
+   "Você chama no WhatsApp e conta o que quer divulgar.",
+   "A gente manda a ideia e o roteiro, e você aprova antes de gravar.",
+   "O vídeo sai no canal e nas redes, e você recebe o link para acompanhar as visualizações."
+  ],
+  "mensagem": "Olá! Vi a página de patrocínio do Doido Varrido Show e quero anunciar a minha marca."
+ },
+ "aviso_ficcao": "Os personagens, apelidos e situações do Vilarejo Buraco Fundo são ficção humorística, inspirada no jeito de falar e nos causos do interior nordestino. Não há intenção de ofender ninguém, e não compactuamos com nenhum tipo de preconceito."
+}

@@ -1,0 +1,148 @@
+{
+ "_leia": "Artes de divulgação no estilo das capas do canal (story 1080x1920 e feed 1080x1350). 'linhas' é o título (diz o que está à venda); 'faixa' é a promessa; 'itens' é o que a pessoa recebe; 'passos' é como funciona. Depois de mudar: node ferramentas/artes.mjs",
+ "arroba": "@odoidovarridooficial",
+ "artes": [
+  {
+   "id": "musica-personalizada",
+   "linhas": [
+    {
+     "t": "Encomende uma"
+    },
+    {
+     "t": "música personalizada!",
+     "destaque": true
+    }
+   ],
+   "faixa": "Com o nome e as histórias de quem você quer homenagear",
+   "itens": [
+    "Letra exclusiva, feita só pra pessoa",
+    "No ritmo que você escolher: forró, sertanejo, brega, pisadinha...",
+    "Pronta pra tocar na festa e mandar no WhatsApp",
+    "Aniversário, casamento, chá revelação ou zoeira com os amigos"
+   ],
+   "passos": [
+    "Você conta a história",
+    "A gente compõe",
+    "Você recebe a música"
+   ],
+   "selo": "A partir de R$ 129",
+   "visual": "personagem",
+   "recorte": "silfarnney-valenca",
+   "chamada": "Peça a sua no WhatsApp",
+   "rodape": "Pronta em até 7 dias"
+  },
+  {
+   "id": "jingle",
+   "linhas": [
+    {
+     "t": "Jingle para o"
+    },
+    {
+     "t": "seu comércio!",
+     "destaque": true
+    }
+   ],
+   "faixa": "Propaganda cantada que o cliente não esquece",
+   "itens": [
+    "Letra com o nome, o endereço e as ofertas da sua loja",
+    "No ritmo que combina com a sua loja",
+    "Pra carro de som, rádio, Instagram e status do WhatsApp",
+    "Feito pelo Doido Varrido: 1,3 milhão de visualizações"
+   ],
+   "passos": [
+    "Conte o que você vende",
+    "A gente cria o jingle",
+    "Você divulga"
+   ],
+   "selo": "A partir de R$ 249",
+   "visual": "personagem",
+   "recorte": "ze-corneteiro",
+   "chamada": "Peça seu jingle no WhatsApp",
+   "rodape": "Pronto em até 7 dias"
+  },
+  {
+   "id": "patrocinio",
+   "linhas": [
+    {
+     "t": "Anuncie no"
+    },
+    {
+     "t": "Doido Varrido Show!",
+     "destaque": true
+    }
+   ],
+   "faixa": "Sua marca dentro das músicas e histórias da vila",
+   "itens": [
+    "1,3 milhão de visualizações no YouTube",
+    "Público no YouTube, Facebook, Instagram e TikTok",
+    "Sua loja no cenário, na letra da música ou no Plantão extraordinário",
+    "Anúncio que entra na piada, e não é pulado"
+   ],
+   "passos": [
+    "Fale com a gente",
+    "Aprove o roteiro",
+    "Seu anúncio no ar"
+   ],
+   "selo": "A partir de R$ 100",
+   "visual": "personagem",
+   "recorte": "ze-fiado",
+   "chamada": "Anuncie: chame no WhatsApp",
+   "rodape": "Fale com a gente"
+  },
+  {
+   "id": "vire-morador",
+   "linhas": [
+    {
+     "t": "Ganhe sua caricatura"
+    },
+    {
+     "t": "em Buraco Fundo!",
+     "destaque": true
+    }
+   ],
+   "faixa": "Vire morador da vila mais doida do sertão",
+   "itens": [
+    "Caricatura no estilo dos moradores da vila",
+    "Apelido e bordão criados pra você",
+    "Arte pronta pro WhatsApp e pro Instagram",
+    "No pacote Morador famoso, você aparece num vídeo"
+   ],
+   "passos": [
+    "Mande uma foto",
+    "A gente cria",
+    "Você recebe a arte"
+   ],
+   "selo": "A partir de R$ 49",
+   "visual": "morador",
+   "chamada": "Mande sua foto no WhatsApp",
+   "rodape": "Pronta em até 7 dias"
+  },
+  {
+   "id": "figurinhas",
+   "linhas": [
+    {
+     "t": "23 figurinhas grátis"
+    },
+    {
+     "t": "pro seu WhatsApp!",
+     "destaque": true
+    }
+   ],
+   "faixa": "Os moradores de Buraco Fundo nas suas conversas",
+   "itens": [
+    "Zé Pavio, Raimunda, Zé Fiado e mais 20 moradores",
+    "Com os bordões mais famosos da vila",
+    "É só baixar e usar, sem pagar nada"
+   ],
+   "passos": [
+    "Abra o link da bio",
+    "Baixe as figurinhas",
+    "Use no WhatsApp"
+   ],
+   "selo": "Grátis!",
+   "visual": "figurinhas",
+   "chamada": "Pegue no link da bio",
+   "rodape": "É de graça"
+  }
+ ]
+}

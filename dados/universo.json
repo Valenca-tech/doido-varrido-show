@@ -1,0 +1,1069 @@
+{
+ "universo": {
+  "nome": "Vilarejo Buraco Fundo",
+  "regiao": "Vale das Conversas Perdidas",
+  "slogans": [
+   "Mais fundo que o buraco é a conversa do povo.",
+   "Onde toda história aumenta antes de chegar ao fim.",
+   "Se gritar Zé, aparece metade da cidade."
+  ],
+  "frase_institucional": "Buraco Fundo não é apenas uma vila. É um universo onde a conversa vale mais que a verdade e toda história ganha um detalhe novo cada vez que é contada.",
+  "apresentacao": "Bem-vindo ao universo de Buraco Fundo, um mundo fictício inspirado no sertão nordestino brasileiro, onde o humor, a cultura popular, o cordel, a amizade, a fé e os causos exagerados se misturam para criar histórias inesquecíveis. Buraco Fundo é uma pequena cidade fictícia situada no interior do Nordeste brasileiro, entre serras, açudes e estradas de terra. Os moradores costumam dizer: “Buraco Fundo fica onde o vento faz a curva e perde o rumo.” Aqui, o absurdo é tratado como normal e toda história aumenta um pouco antes de chegar ao fim.",
+  "populacao": "4.327 habitantes",
+  "cenarios": [
+   {
+    "nome": "Praça Central",
+    "oficial": true,
+    "descricao": "Fica no centro da cidade. Com o coreto da vila, é onde Seu Lídio Promessa faz seus discursos, Lourinha comenta as confusões e Zé Nego Fábim junta rodinhas de curiosos para ouvir suas histórias."
+   },
+   {
+    "nome": "Igreja São José",
+    "oficial": true,
+    "descricao": "Igreja do centro da cidade. Em Buraco Fundo a fé é parte fundamental da vida da comunidade: os moradores acreditam em milagres, em promessas, em assombrações e em histórias passadas de geração em geração."
+   },
+   {
+    "nome": "Prefeitura",
+    "oficial": true,
+    "descricao": "A Prefeitura Municipal fica no centro da cidade. Foi ela que fez a Declaração Oficial: a população masculina da vila é composta por aproximadamente 97% de Zés e 3% de pessoas que ainda não aceitaram seu destino."
+   },
+   {
+    "nome": "Mercadinho do Zé Fiado",
+    "oficial": true,
+    "descricao": "Fica na praça principal e funciona como mercado, banco, correio, central de fofocas e agência de notícias não oficiais. Na placa: “Fiado só amanhã.”"
+   },
+   {
+    "nome": "Rádio Buraco Fundo FM",
+    "oficial": true,
+    "descricao": "Rádio do centro da cidade, onde Zé Corneteiro é o locutor."
+   },
+   {
+    "nome": "Escola Professora Marinalva",
+    "oficial": true,
+    "descricao": "Escola Municipal Professora Marinalva, no bairro principal, onde Dona Marinalva tenta ensinar português e matemática e sobreviver às respostas impossíveis de Zézinho."
+   },
+   {
+    "nome": "Buteco do Zé Coco",
+    "oficial": true,
+    "descricao": "Dizem que o bar é mais antigo que metade da vila e que todo mundo passa por lá pelo menos uma vez por dia. Famoso pela mesa de dominó permanente, pelo rádio tocando forró o dia inteiro e pelo fiado mais perigoso do sertão: quase todas as histórias da vila passam pelo seu balcão."
+   },
+   {
+    "nome": "Açude Velho",
+    "oficial": true,
+    "descricao": "Açude Velho de Buraco Fundo, na zona rural. A pesca no açude é uma das atividades da vila, e foi nele que Zé Nego Fábim diz ter pescado uma baleia."
+   },
+   {
+    "nome": "Estrada Assombrada",
+    "oficial": true,
+    "descricao": "Um antigo trecho cercado por mandacarus, onde os moradores afirmam ouvir passos, assobios e risadas distantes."
+   },
+   {
+    "nome": "Vale das Conversas Perdidas",
+    "oficial": true,
+    "descricao": "Região composta por diversos vilarejos sertanejos, conhecidos por suas histórias exageradas, moradores engraçados e acontecimentos improváveis. Frase oficial: “No Vale das Conversas Perdidas, toda história aumenta um pouco antes de chegar ao fim.”"
+   },
+   {
+    "nome": "Rodoviária",
+    "oficial": false,
+    "descricao": "Na saída da cidade."
+   },
+   {
+    "nome": "Campo Municipal",
+    "oficial": false,
+    "descricao": "Na saída da cidade."
+   },
+   {
+    "nome": "Padaria do Povo",
+    "oficial": false,
+    "descricao": "Padaria simples e antiga da vila, com letreiro pintado à mão e sacos de farinha empilhados. Em frente fica o banco de madeira onde Coloral passa os dias cantando e batendo na lata de goiabada."
+   },
+   {
+    "nome": "Casa de Zé Pavio e Dona Raimunda",
+    "oficial": false,
+    "descricao": "Casa de taipa no extremo de uma estrada de barro batido, cercada por mandacarus e juazeiros antigos. Segundo os moradores, a casa já ouviu mais reclamações que a prefeitura inteira, e dizem que até as paredes aprenderam a resmungar."
+   },
+   {
+    "nome": "Casa de Zé Encostado",
+    "oficial": false,
+    "descricao": "A casa mais tranquila de Buraco Fundo: rede armada em todos os cômodos, cadeira de balanço na varanda, pé de umbu enorme fazendo sombra e a placa oficial “Favor não acordar. Se for urgente, espere.”"
+   }
+  ],
+  "eventos": [
+   "São João",
+   "Vaquejada",
+   "Festa do Padroeiro",
+   "Festival do Bolo de Milho",
+   "Campeonato de Futebol dos Casados",
+   "Festa do Bode",
+   "Dia Municipal dos Zés"
+  ],
+  "lenda_dos_zes": {
+   "resumo": "Há muitos anos, quando Buraco Fundo possuía mais bodes do que moradores, surgiu uma história que ninguém sabe se é verdade. Segundo Zé Nego Fábim da Conversa, o governo fez uma campanha: quem registrasse o filho como Zé ganhava um saco de milho e uma galinha poedeira. O povo correu para o cartório e, quando alguém perguntava o nome da criança, a resposta era simples: “Bota Zé mesmo que o milho tá garantido.” Anos depois, quando alguém gritava “Ô ZÉ!”, metade da vila respondia: “O quê foi?!” Em Buraco Fundo existem duas coisas que nunca acabam: os Zés e as histórias sobre eles.",
+   "bordao": "Se gritar “Zé” em Buraco Fundo, aparece mais gente do que em dia de feira!"
+  },
+  "lei_dos_zes": [
+   {
+    "artigo": "Artigo 1º",
+    "texto": "Todo homem nascido, criado, encontrado ou perdido em Buraco Fundo tem o direito sagrado de ser chamado de Zé."
+   },
+   {
+    "artigo": "Artigo 2º",
+    "texto": "Quem não gostar de ser chamado de Zé receberá automaticamente um apelido pior."
+   },
+   {
+    "artigo": "Artigo 3º",
+    "texto": "Toda reclamação deverá ser protocolada diretamente com Zé Pavio. Entretanto: não resolve nada, não encaminha nada, não responde nada, não promete nada."
+   },
+   {
+    "artigo": "Artigo 4º",
+    "texto": "Conflitos entre Zés serão resolvidos através de: dominó, par ou ímpar, corrida de jegue, discussão na praça."
+   },
+   {
+    "artigo": "Artigo 5º",
+    "texto": "É proibido chamar qualquer morador apenas pelo sobrenome."
+   },
+   {
+    "artigo": "Artigo 6º",
+    "texto": "Ao ouvir um “Ô ZÉ!” em local público, pelo menos quinze moradores têm obrigação moral de responder: “O que foi agora?”"
+   },
+   {
+    "artigo": "Artigo 7º",
+    "texto": "Fica instituído o Dia Municipal dos Zés. Programação oficial: Concurso do Maior Bigode, Campeonato de Conversa Fiada, Corrida de Chinelo, Torneio de Dominó, Troféu Zé do Ano."
+   },
+   {
+    "artigo": "Declaração Oficial da Prefeitura",
+    "texto": "A Prefeitura Municipal de Buraco Fundo reconhece que a população masculina da vila é composta por aproximadamente 97% de Zés e 3% de pessoas que ainda não aceitaram seu destino."
+   },
+   {
+    "artigo": "Bordão Oficial",
+    "texto": "Em Buraco Fundo, todo homem nasce Zé. O resto é apelido."
+   }
+  ],
+  "vale_das_conversas": [
+   {
+    "nome": "Catinga do Riso",
+    "slogan": "Onde o cheiro é forte e a risada é garantida.",
+    "descricao": "Famosa pelos concursos de piadas e desafios de improviso. Sua marca registrada é uma enorme estátua de um bode sorrindo."
+   },
+   {
+    "nome": "Goiabada do Norte",
+    "slogan": "Aqui o doce é de goiaba e o povo é de conversa.",
+    "descricao": "Terra das rodas de conversa e da famosa lata-pandeiro de Coloral."
+   },
+   {
+    "nome": "Rabo da Serra",
+    "slogan": "Fim de mundo, começo da confusão.",
+    "descricao": "Lar da lendária Pedra da Fofoqueira."
+   },
+   {
+    "nome": "Arrocho Velho",
+    "slogan": "Aqui o arrocho é no forró e na vida.",
+    "descricao": "Capital regional do forró, piseiro e sofrência."
+   },
+   {
+    "nome": "Pé de Promessa",
+    "slogan": "Todo mundo promete, ninguém cumpre.",
+    "descricao": "Conhecida pelas obras eternamente inacabadas."
+   },
+   {
+    "nome": "Lagoa do Engano",
+    "slogan": "A verdade afunda, mas o riso boia.",
+    "descricao": "Sede do Concurso Anual da Maior Mentira do Sertão."
+   },
+   {
+    "nome": "Tapera da Luz",
+    "slogan": "Aqui até o poste brilha errado.",
+    "descricao": "Famosa pelas histórias sobrenaturais e pelo Poste Encantado."
+   }
+  ],
+  "folclore": [
+   {
+    "nome": "O Cachorro Preto",
+    "descricao": "A lenda mais famosa da região: moradores afirmam ver um enorme cachorro preto vagando pelas estradas durante a madrugada. A lenda está diretamente ligada a Zé Mochila, que, quando alguém comenta sobre o animal, responde: “Pois era eu.”"
+   },
+   {
+    "nome": "A Estrada Assombrada",
+    "descricao": "Um antigo trecho cercado por mandacarus. Moradores afirmam ouvir passos, assobios e risadas distantes."
+   },
+   {
+    "nome": "A origem de Buraco Fundo",
+    "descricao": "Ninguém sabe exatamente quando a vila surgiu. Alguns afirmam que nasceu ao redor de um poço antigo; outros garantem que tudo começou quando um tropeiro caiu em um buraco tão grande que decidiu construir uma vila ao redor dele."
+   },
+   {
+    "nome": "A Pedra da Fofoqueira",
+    "descricao": "Pedra lendária de Rabo da Serra (o texto não descreve a lenda)."
+   },
+   {
+    "nome": "O Poste Encantado",
+    "descricao": "Atração de Tapera da Luz, vilarejo famoso pelas histórias sobrenaturais (o texto não descreve a lenda)."
+   }
+  ]
+ },
+ "silfarnney": {
+  "nome_artistico": "O Doido Varrido Show",
+  "personalidade": "Um cabra carismático, irreverente e imprevisível que transformou a própria loucura em espetáculo; ninguém sabe se ele é um humorista que virou filósofo ou um filósofo que virou humorista. Tem um jeito “maluco consciente”: parece doido, mas fala verdades profundas disfarçadas de besteira. Quando ele pega o microfone, ninguém consegue ficar sério por muito tempo.",
+  "frases": [
+   "Se é pra ser doido, seja com elegância.",
+   "O mundo tá doido... mas eu cheguei primeiro!",
+   "Eu num sou doido não, sou pós-graduado em varrimento mental!",
+   "Doido é quem tenta entender o que nem Deus quis explicar!",
+   "O mundo gira, a vida capota e eu tô aqui rindo da queda!",
+   "Cuidado, que até a loucura tem método, visse?",
+   "Tem gente tão normal que chega a preocupar!",
+   "Quem leva a vida a sério demais perde metade da diversão.",
+   "Se conselho fosse fácil, vinha no pão.",
+   "Se o povo rir junto, sofre menos separado."
+  ],
+  "bio_curta": "Nordestino, filósofo de boteco e contador de causos doidos! Aqui quem fala é O Doido Varrido Show, o cabra que mistura sabedoria, besteira e risada em partes iguais!"
+ },
+ "personagens": [
+  {
+   "id": "silfarnney-valenca",
+   "nome": "Silfarnney Valença",
+   "outros_nomes": [
+    "O Doido Varrido Show",
+    "Doido Varrido"
+   ],
+   "papel": "Apresentador do programa O Doido Varrido Show",
+   "grupo": "Família Valença",
+   "bordao": "Se é pra ser doido, seja com elegância.",
+   "descricao": "O apresentador mais famoso do Vale das Conversas Perdidas: um cabra carismático, irreverente e imprevisível que transformou a própria loucura em espetáculo. Seu programa mistura humor nordestino, causos sertanejos, filosofia de boteco, entrevistas malucas, emboladas improvisadas e críticas sociais bem-humoradas.",
+   "relacoes": "marido de Verinha Valença; Zé Pavio é seu entrevistado favorito; Fora de Prumo é o parceiro oficial das filosofias malucas; Zé Nego Fábim é a fonte inesgotável de histórias improváveis; Seu Lídio Promessa é o alvo preferido das piadas políticas; Zé Tonhim Café Doce cuida das mensagens otimistas; Coloral faz as aberturas musicais mais desafinadas; Zé Coco é o patrocinador informal do programa",
+   "local": "palco do programa O Doido Varrido Show",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "verinha-valenca",
+   "nome": "Verinha Valença",
+   "outros_nomes": [
+    "Vera Valença",
+    "Verinha",
+    "Verinha Encantada",
+    "Primeira-Dama do Doido Varrido Show",
+    "Flor de Buraco Fundo",
+    "Rainha da Chita Vermelha",
+    "A Mulher que Domou o Doido",
+    "Encanto do Sertão"
+   ],
+   "papel": "Esposa de Silfarnney Valença, Primeira-Dama do Doido Varrido Show",
+   "grupo": "Família Valença",
+   "bordao": "Pode ser doido, mas é meu doido.",
+   "descricao": "A única capaz de colocar ordem nas maluquices do Doido Varrido Show e de interromper uma filosofia maluca do marido apenas com um olhar. Como dizem os moradores: “O Doido Varrido é o motor... Verinha é o volante.”",
+   "relacoes": "esposa de Silfarnney Valença (os dois se conheceram numa festa de São João em Buraco Fundo, quando ela disse: “Rapaz... tu é doido mesmo.”)",
+   "local": "",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-pavio",
+   "nome": "Zé Pavio",
+   "outros_nomes": [
+    "José Pavio da Silva",
+    "Merda Viva",
+    "Ranciza",
+    "O Resmungão do Sertão",
+    "O Profeta da Reclamação",
+    "Fiscal dos Erros Alheios",
+    "Patrimônio da Rabugice Nordestina"
+   ],
+   "papel": "Aposentado da vida e especialista em reclamar de tudo",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Oxente, ninguém mais sabe fazer nada direito?",
+   "descricao": "Mal-humorado profissional e lenda viva de Buraco Fundo: dizem que reclamou tanto da seca que até a chuva desistiu de aparecer. Apesar da grosseria, tem um bom coração escondido atrás de quarenta camadas de reclamação: ajuda os outros, mas reclama enquanto ajuda.",
+   "relacoes": "marido de Dona Raimunda; pai de Zé Pilôia; melhor amigo e maior desafio de Zé Tonhim Café Doce; entrevistado favorito do Doido Varrido Show; chama Coloral de “o desafinado iluminado”; não suporta as conversas de Zé Barrão; vive reclamando das respostas de Zézinho; recebe as reclamações da Lei dos Zés (Artigo 3º)",
+   "local": "Casa de Zé Pavio e Dona Raimunda",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "raimunda",
+   "nome": "Raimunda",
+   "outros_nomes": [
+    "Dona Raimunda",
+    "Raimunda das Dores Pavio",
+    "Dona Raimunda Pavio",
+    "A Mulher do Merda Viva",
+    "A Santa da Paciência",
+    "Raimunda Braba",
+    "Dona da Chinela Voadora",
+    "Prefeita da Casa de Zé Pavio"
+   ],
+   "papel": "Esposa de Zé Pavio e comandante da casa",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "A paciência é grande... mas a chinela é maior!",
+   "descricao": "Se Zé Pavio é o pavio curto de Buraco Fundo, Raimunda é a bomba inteira: reclama do marido o dia todo, mas se alguém falar mal dele, ela compra a briga. Enquanto Zé Pavio reclama, ela resolve, e muitas vezes acaba sendo a única pessoa sensata da história.",
+   "relacoes": "esposa de Zé Pavio; mãe de Zé Pilôia; conversa com Socorrinha Calada sobre as fofocas da vila; vive defendendo Zézinho das reclamações de Zé Pavio; tem fama de correr atrás de Zé Barrão com vassoura quando ele apronta",
+   "local": "Casa de Zé Pavio e Dona Raimunda",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-tonhim-cafe-doce",
+   "nome": "Zé Tonhim Café Doce",
+   "outros_nomes": [
+    "ZÉ TONHIM da Luz Ferreira",
+    "Tonho da Luz",
+    "Tonho Café Doce",
+    "Tonho",
+    "O Otimista de Pobreza",
+    "Embaixador da Esperança",
+    "Rei do Café Açucarado",
+    "Profeta do “Vai Dar Certo”",
+    "Sorriso do Sertão"
+   ],
+   "papel": "O otimista da vila, contraponto de Zé Pavio",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Rapaz, enquanto tiver café e esperança, a derrota ainda não chegou!",
+   "descricao": "O coração otimista de Buraco Fundo: mora numa casinha simples, vive apertado de dinheiro e mesmo assim acorda sorrindo, sempre com um bule de café e uma caneca amassada. Normalmente entra na cena tentando resolver um problema e quase sempre piora a situação sem querer.",
+   "relacoes": "melhor amigo, contraponto e puxa-saco assumido de Zé Pavio; responsável pelas mensagens otimistas do Doido Varrido Show; acha Zézinho um gênio; considera Rosinha Encanto a pessoa mais educada da vila; Zé Encostado aceita o café dele, mas sem levantar da rede",
+   "local": "feira da vila e barraca de café",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-encostado",
+   "nome": "Zé Encostado",
+   "outros_nomes": [
+    "Zé Ferreira da Preguiça",
+    "Tonho Encostado",
+    "Rei da Rede",
+    "Mestre do Descanso",
+    "Patrão da Preguiça",
+    "Fiscal da Sombra",
+    "Doutor em Não Fazer Nada"
+   ],
+   "papel": "O preguiçoso da vila, símbolo máximo da preguiça",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Vou fazer... só num sei quando.",
+   "descricao": "Oficialmente o homem mais preguiçoso de Buraco Fundo: dizem que nasceu cansado e que já parou no meio de uma caminhada para descansar da caminhada. Mesmo sem fazer quase nada, consegue estar presente em todas as confusões da vila apenas observando, comentando e cochilando.",
+   "relacoes": "bebe e filosofa com Zé Calado debaixo do umbuzeiro; Zé Barrão tenta convencê-lo a trabalhar, mas desiste; Socorrinha Calada reclama que ele passa o dia todo encostado; usa as músicas de Coloral para dormir; Zé Pilôia vive pedindo ajuda e nunca recebe",
+   "local": "Casa de Zé Encostado",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-fora-de-prumo",
+   "nome": "Zé Fora de Prumo",
+   "outros_nomes": [
+    "Fora de Prumo",
+    "Zé Francisco Prudêncio de Souza",
+    "O Sócrates do Boteco",
+    "Filósofo Líquido",
+    "Mestre da Ressaca",
+    "Profeta da Cachaça",
+    "Doutor em Conversa de Bar",
+    "O Pensador do Copo Cheio"
+   ],
+   "papel": "O bêbado filósofo",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Se o mundo tá girando, o problema é dele... eu tô parado.",
+   "descricao": "O bêbado filósofo oficial de Buraco Fundo, sempre cambaleando entre a lucidez e a confusão, com uma garrafa numa mão e uma teoria na outra. Pode começar falando sobre uma galinha e terminar explicando o sentido da existência.",
+   "relacoes": "parceiro oficial das filosofias malucas do Doido Varrido Show; cliente mais fiel do Buteco do Zé Coco; bebe e filosofa ao lado de Zé Calado; passa horas discutindo com Zé Barrão quem é mais inteligente; adora debater filosofia com Lourinha e com Zé Tonhim",
+   "local": "Buteco do Zé Coco, praça principal e debaixo do pé de umbu",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "lourinha-de-buraco-fundo",
+   "nome": "Lourinha de Buraco Fundo",
+   "outros_nomes": [
+    "Zé Lourival Pereira dos Santos",
+    "Lourinha Fashion",
+    "A Bixa Mais Arretada do Sertão",
+    "Rei do Rebolado",
+    "Príncipe do Mandacaru Fashion",
+    "Estrela de Buraco Fundo",
+    "Embaixador do Babado Sertanejo",
+    "Lourinha do Buraco Fundo",
+    "Zé Loirinha",
+    "Zefinha Luxo"
+   ],
+   "papel": "Celebridade local e comentarista oficial das confusões",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Meu amor, eu não apareço... eu aconteço!",
+   "descricao": "A figura mais extravagante, divertida e carismática da vila, com leque inseparável e perfume forte que chega antes dele. Conhece todas as fofocas antes mesmo delas acontecerem: “Eu num faço fofoca... eu faço atualização de informações.”",
+   "relacoes": "principal concorrente de Socorrinha Calada nas fofocas; Zé Barrão vive tentando impressioná-lo; Zé Pilôia sempre pede conselhos amorosos; Fora de Prumo adora debater filosofia com ele; Coloral compõe músicas em sua homenagem; Zé Encostado acha cansativo acompanhar tanta animação",
+   "local": "praça principal, feira da vila e festas juninas",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-conversa",
+   "nome": "Zé Conversa",
+   "outros_nomes": [
+    "Zé Nego Fábim da Conversa",
+    "Nego Fábim da Conversa",
+    "Zé Nego Fábim",
+    "Zé da Conversa",
+    "Zé Fabiano Pereira da Silva",
+    "O Rei da Lorota",
+    "Fábim Conversa Mole",
+    "Empresário de Mentirinha",
+    "Doutor das Histórias",
+    "O Homem que Conhece Todo Mundo",
+    "Campeão Mundial de Conversa Fiada"
+   ],
+   "papel": "O mentiroso oficial, contador de lorotas",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Se eu contar a verdade, ninguém acredita. Aí eu invento uma melhor!",
+   "descricao": "Nasceu em Buraco Fundo, mas segundo ele já morou em Paris, Dubai, Nova York, Tóquio e até na Lua; começou contando que pegou um peixe de cinco quilos e terminou dizendo que pescou uma baleia no açude da vila. A população já aprendeu a regra: se Nego Fábim disser que está chovendo, primeiro olhe para o céu.",
+   "relacoes": "marido de Rosinha Encanto; narrador da Lenda dos Zés; disputa com Zé Barrão o título de maior enrolador da vila; Zé Pilôia acredita em quase tudo que ele fala; Socorrinha Calada vive desmentindo suas histórias; Coloral transforma suas mentiras em músicas; dá conselhos errados a Zé Massilon",
+   "local": "praça da vila, frente da mercearia e feira de domingo",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-promessa",
+   "nome": "Zé Promessa",
+   "outros_nomes": [
+    "Seu Lídio Promessa",
+    "Zé Lídio Honório das Promessas",
+    "Zé Lídio Promessa",
+    "Zé da Promessa",
+    "Seu Lídio",
+    "O Candidato Permanente",
+    "Prefeito de Conversa",
+    "Doutor das Promessas",
+    "Rei do Palanque",
+    "Deputado de Buraco Fundo",
+    "O Homem do “Vai Sair”"
+   ],
+   "papel": "O político da vila, candidato permanente",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Meu povo, tenham paciência... porque o melhor ainda está sendo prometido!",
+   "descricao": "O político folclórico de Buraco Fundo, mestre em falar muito sem dizer nada: dizem que prometeu construir uma ponte antes mesmo de existir o riacho. Aparece em toda festa, inauguração, missa ou vaquejada com um maço de papéis anunciando grandes projetos para um futuro que nunca chega.",
+   "relacoes": "alvo preferido das piadas políticas do Doido Varrido Show; Zé Pilôia acredita em todas as promessas; Socorrinha Calada vive cobrando obras prometidas; Fora de Prumo adora fazer perguntas difíceis durante os discursos; Coloral compõe músicas satirizando suas campanhas; Zé Barrão tenta pegar carona nos eventos dele",
+   "local": "praça principal, coreto da vila e frente da prefeitura",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "coloral",
+   "nome": "Coloral",
+   "outros_nomes": [
+    "Zé Coloral de Oliveira das Goiabas",
+    "Zé Coloral",
+    "Zé Colorau",
+    "O Camarão do Sertão",
+    "O Doido do Pandeiro de Lata",
+    "Maestro da Goiabada",
+    "Cantor da Padaria",
+    "Rei da Embolada Sem Sentido"
+   ],
+   "papel": "Músico e animador de rua, cantor da padaria",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Quem tem uma lata, tem uma orquestra!",
+   "descricao": "O músico maluco e carismático de Buraco Fundo: vermelho como camarão, loiro como milho seco e apaixonado por sua lata de doce de goiaba transformada em pandeiro. Passa os dias cantando emboladas sem sentido na frente da padaria, e quase toda frase dele vira música.",
+   "relacoes": "Zé Pavio o chama de “o desafinado iluminado”; faz as aberturas musicais mais desafinadas do Doido Varrido Show; Zé Pilôia acredita que ele prevê o futuro; Socorrinha Calada manda ele diminuir o volume; Zé Barrão vive sendo alvo das suas emboladas; ensina músicas sem sentido para Zézinho",
+   "local": "banco de madeira em frente à padaria de Buraco Fundo",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "rosinha-encanto",
+   "nome": "Rosinha Encanto",
+   "outros_nomes": [
+    "Rosinha Encanto de Oliveira",
+    "A Flor do Sertão",
+    "A Musa de Buraco Fundo",
+    "A Rainha da Chita",
+    "Encanto do Mandacaru",
+    "Estrela da Vila",
+    "A Bonita do Pôr do Sol"
+   ],
+   "papel": "A musa da vila",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Encantar é fácil. Difícil é continuar encantando depois da primeira começar.",
+   "descricao": "A musa oficial de Buraco Fundo, que conquista as pessoas não apenas pela aparência, mas pelo coração generoso e pela personalidade forte. Costuma resolver discussões apenas com uma frase bem colocada: “Beleza abre conversa. Caráter faz a pessoa ficar.”",
+   "relacoes": "esposa de Zé Conversa; Zé Barrão vive tentando impressioná-la; Zé Pilôia fica nervoso quando ela conversa com ele; Zé Tonhim a considera a pessoa mais educada da vila; Socorrinha Calada gosta dela porque fala a verdade sem rodeios; Fora de Prumo diz que ela é “a poesia que saiu andando pelo sertão”",
+   "local": "praça principal, feira de Buraco Fundo e festas juninas",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-calado",
+   "nome": "Zé Calado",
+   "outros_nomes": [
+    "Chico Calado",
+    "Zé Chifre Manso",
+    "Filósofo da Cachaça",
+    "Calado Sofrido",
+    "Poeta do Pé de Balde"
+   ],
+   "papel": "Marido desconfiado e filósofo de boteco",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Se já fui corno algum dia, eu num me lembro.",
+   "descricao": "O homem mais desconfiado de Buraco Fundo: diz que confia na esposa, mas vive investigando tudo. Fala pouco e sofre muito, e quando bebe chora, canta modão, faz poesia triste e conversa com galinhas, mas é querido por todos.",
+   "relacoes": "marido de Socorrinha Calada; pai de Zézinho da Mochila; bebe e filosofa com Zé Encostado debaixo do umbuzeiro e ao lado de Fora de Prumo",
+   "local": "casa do casal Zé Calado e Socorrinha Calada",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "socorrinha-calada",
+   "nome": "Socorrinha Calada",
+   "outros_nomes": [
+    "Furacão do Sertão",
+    "Boca de Trombeta",
+    "Rainha da Resposta",
+    "General da Casa",
+    "Mulher do Chico Calado"
+   ],
+   "papel": "Fofoqueira da vila e general da casa",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Eu sou Socorrinha Calada, mas calada eu num fico não!",
+   "descricao": "A maior contradição de Buraco Fundo: o sobrenome é “Calada”, mas ela fala mais que rádio de pilha ligado. Mandona, corajosa e protetora da família, é a responsável por colocar ordem nos doidos de Buraco Fundo.",
+   "relacoes": "esposa de Zé Calado; mãe de Zézinho da Mochila; conversa com Dona Raimunda; principal concorrente de Lourinha nas fofocas; vive cobrando as obras de Seu Lídio e desmentindo Zé Nego Fábim; manda Coloral diminuir o volume",
+   "local": "casa do casal Zé Calado e Socorrinha Calada",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "zezinho-da-mochila",
+   "nome": "Zézinho da Mochila",
+   "outros_nomes": [
+    "Zézinho",
+    "Professorzinho de Buraco Fundo",
+    "O Menino das Respostas",
+    "Pequeno Sabichão do Sertão"
+   ],
+   "papel": "Estudante de 7 anos",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Se eu soubesse que dava problema, eu tinha feito escondido.",
+   "descricao": "Com apenas 7 anos, é considerado o menino mais esperto de Buraco Fundo e o maior pesadelo da Professora Marinalva, sempre com uma mochila escolar enorme que parece maior que ele. Herdou a fala rápida da mãe e a observação silenciosa do pai, e muitas vezes é ele quem encerra as histórias com a piada final.",
+   "relacoes": "filho de Zé Calado e Socorrinha Calada; aluno da Professora Marinalva; deixa Zé Pavio sem resposta; Zé Tonhim acha que ele é um gênio; Dona Raimunda o defende das reclamações de Zé Pavio; Coloral ensina músicas sem sentido para ele",
+   "local": "Escola Municipal Professora Marinalva",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "professora-marinalva",
+   "nome": "Professora Marinalva",
+   "outros_nomes": [
+    "Dona Marinalva",
+    "Marinalva de Jesus Ferreira",
+    "A Rainha da Régua",
+    "O Terror da Tarefa Incompleta"
+   ],
+   "papel": "Professora da Escola Municipal",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Tem hora que eu ensino... tem hora que eu sobrevivo.",
+   "descricao": "Professora de Zézinho e de praticamente todas as crianças da vila, vive tentando ensinar, manter a disciplina e sobreviver às respostas impossíveis dos alunos. A régua não serve para bater: serve para apontar o erro exatamente onde ele está.",
+   "relacoes": "professora de Zézinho, seu maior desafio",
+   "local": "Escola Municipal Professora Marinalva",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-coco",
+   "nome": "Zé Coco",
+   "outros_nomes": [
+    "Zé Cícero do Nascimento",
+    "Zé dos Coco",
+    "Seu Zé dos Coco",
+    "O Dono do Buteco",
+    "Rei da Cerveja Gelada",
+    "Prefeito do Balcão",
+    "Conselheiro dos Aperreados",
+    "Mestre dos Tira-Gostos",
+    "O Homem que Sabe de Tudo"
+   ],
+   "papel": "Dono do Buteco do Zé Coco",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Entre seco, saia sorrindo... mas não esqueça de pagar a conta!",
+   "descricao": "O coração social de Buraco Fundo: gordo, sorridente e sempre atrás do balcão, conhece todos os segredos, fofocas, romances, dívidas e confusões da vila. Segundo ele: “Eu num procuro notícia... a notícia vem tomar café e cerveja aqui.”",
+   "relacoes": "patrocinador informal do Doido Varrido Show; Fora de Prumo é seu cliente mais fiel; Zé Pavio reclama da vida sentado no balcão; Zé Barrão vive prometendo pagar a próxima rodada",
+   "local": "Buteco do Zé Coco",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-piloia",
+   "nome": "Zé Pilôia",
+   "outros_nomes": [
+    "O Corno de Buraco Fundo",
+    "Zé Cinco Conto",
+    "Pilôia Sem Sorte",
+    "Chifre de Ouro"
+   ],
+   "papel": "O azarado da vila",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Quando a desgraça me acha, ela traz as prima tudim!",
+   "descricao": "O homem mais azarado de Buraco Fundo: quando tenta ganhar dinheiro, perde, e quando tenta ajudar alguém, acaba se complicando; já caiu dentro de cacimba e comprou bode que era cabra. Apesar disso é um cabra bom de coração, e o povo gosta dele mesmo quando ele vira motivo de piada.",
+   "relacoes": "filho de Zé Pavio e Dona Raimunda; amigo de Zé Barrão e seu maior alvo de pegadinhas; acredita nas promessas de Seu Lídio e em quase tudo que Zé Nego Fábim fala; acha que Coloral prevê o futuro; dá ajuda inútil a Zé Massilon",
+   "local": "",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-barrao",
+   "nome": "Zé Barrão",
+   "outros_nomes": [
+    "Barrão Pé de Vento",
+    "Zé Rouba-Coração",
+    "O Rei da Lábia",
+    "Barrão das Encrencas"
+   ],
+   "papel": "O malandro da vila",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "A culpa num é minha se eu sou bonito.",
+   "descricao": "O cabra mais liso e conversador de Buraco Fundo, capaz de convencer quase qualquer pessoa de qualquer coisa: dizem que já vendeu o mesmo bode três vezes. Não é exatamente vilão nem herói, apenas um cabra que nunca perde uma oportunidade de se dar bem.",
+   "relacoes": "amigo de Zé Pilôia, de quem sempre tira vantagem; Zé Pavio não suporta suas conversas (“Esse cabra nasceu mentindo.”); Dona Raimunda corre atrás dele com vassoura; disputa com Zé Nego Fábim o título de maior enrolador; discute com Fora de Prumo quem é mais inteligente",
+   "local": "",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-fiado",
+   "nome": "Zé Fiado",
+   "outros_nomes": [
+    "O Rei do Caderninho",
+    "Zé Conta Pendente",
+    "Banco Central de Buraco Fundo",
+    "Zé Amanhã Eu Pago"
+   ],
+   "papel": "Dono do Mercadinho",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Fiado só amanhã.",
+   "descricao": "Conhece a vida financeira de toda a cidade e consegue lembrar uma dívida feita há mais de vinte anos: até hoje procura o morador que comprou uma bala e prometeu pagar “na próxima semana”. Vive ameaçando fechar o fiado, mas nunca fecha.",
+   "relacoes": "",
+   "local": "Mercadinho do Zé Fiado, na praça principal",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-reza-forte",
+   "nome": "Zé Reza Forte",
+   "outros_nomes": [],
+   "papel": "Padre e conselheiro espiritual da vila",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Tenha fé, meu filho.",
+   "descricao": "Sempre tranquilo, otimista e cheio de sabedoria popular, acredita que toda dificuldade pode ser vencida com fé, oração e um bom conselho. Mesmo sendo muito respeitado, vive entrando em situações engraçadas porque tenta resolver qualquer problema com uma oração e um conselho sertanejo.",
+   "relacoes": "",
+   "local": "",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-pega-ligeiro",
+   "nome": "Zé Pega-Ligeiro",
+   "outros_nomes": [],
+   "papel": "Delegado",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Peguei foi ligeiro!",
+   "descricao": "O delegado mais rápido, atrapalhado e famoso de Buraco Fundo, com fama de resolver qualquer caso antes mesmo de entender o que aconteceu. Muitas vezes prende a pessoa errada primeiro e investiga depois, mas, por uma coincidência danada, quase sempre acaba solucionando o caso.",
+   "relacoes": "",
+   "local": "",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-corneteiro",
+   "nome": "Zé Corneteiro",
+   "outros_nomes": [],
+   "papel": "Locutor da Rádio Buraco Fundo FM e repórter da vila",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Plantão extraordinário!",
+   "descricao": "O repórter, locutor, fofoqueiro profissional e sistema oficial de comunicação de Buraco Fundo, que percorre o povoado numa bicicleta velha com uma enorme corneta. Se o prefeito espirra, ele anuncia; se alguém compra um bode novo, ele anuncia duas vezes.",
+   "relacoes": "",
+   "local": "Rádio Buraco Fundo FM",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-bola-murcha",
+   "nome": "Zé Bola Murcha",
+   "outros_nomes": [],
+   "papel": "Técnico de futebol",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Foi estratégia.",
+   "descricao": "Técnico, jogador, comentarista e especialista autoproclamado em futebol de Buraco Fundo, cujos planos quase sempre dão errado. Se perde por 5 a 0, diz que foi para confundir o próximo adversário; se faz gol contra, afirma que era parte do plano.",
+   "relacoes": "",
+   "local": "",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-massilon",
+   "nome": "Zé Massilon",
+   "outros_nomes": [
+    "Zé Massilon Ferreira do Nascimento",
+    "Galã do Areal",
+    "Rei das Cantadas",
+    "Príncipe do Mandacaru",
+    "Terror das Solteiras",
+    "Dom Juan do Sertão"
+   ],
+   "papel": "Galã do Areal, protagonista da série Cantadas de Buraco Fundo",
+   "grupo": "Série cantada",
+   "bordao": "Quem desiste da cantada morre solteiro!",
+   "descricao": "Charmoso demais para o próprio bem e confiante mesmo quando leva fora, é o protagonista das histórias de cantadas e paqueras da vila. Quase sempre termina levando um fora engraçado, virando motivo de piada em Buraco Fundo.",
+   "relacoes": "tenta conquistar Auristela do Sol, Mirela da Lua e Jandira Raioforte; recebe conselhos errados de Zé Nego Fábim, filosofias de Fora de Prumo e ajuda inútil de Zé Pilôia",
+   "local": "",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "auristela-do-sol",
+   "nome": "Auristela do Sol",
+   "outros_nomes": [
+    "A Flor Dourada",
+    "Sol de Buraco Fundo",
+    "Loira do Sertão"
+   ],
+   "papel": "A Loira, da série Cantadas de Buraco Fundo",
+   "grupo": "Série cantada",
+   "bordao": "Bonito é elogio. Inteligência é critério.",
+   "descricao": "Alegre, inteligente, vaidosa e simpática, adora provocar os pretendentes.",
+   "relacoes": "alvo das cantadas de Zé Massilon",
+   "local": "",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "mirela-da-lua",
+   "nome": "Mirela da Lua",
+   "outros_nomes": [
+    "Lua do Sertão",
+    "Morena Misteriosa",
+    "Encanto da Noite"
+   ],
+   "papel": "A Morena, da série Cantadas de Buraco Fundo",
+   "grupo": "Série cantada",
+   "bordao": "Quem fala demais geralmente tem pouco a dizer.",
+   "descricao": "Calma, observadora, misteriosa e inteligente, sarcástica quando necessário.",
+   "relacoes": "alvo das cantadas de Zé Massilon",
+   "local": "",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "jandira-raioforte",
+   "nome": "Jandira Raioforte",
+   "outros_nomes": [
+    "Rainha do Sertão",
+    "Furacão de Buraco Fundo",
+    "Raio Forte"
+   ],
+   "papel": "A Negra, da série Cantadas de Buraco Fundo",
+   "grupo": "Série cantada",
+   "bordao": "Se veio com cantada ruim, já pode voltar.",
+   "descricao": "Corajosa, forte, independente e direta, não tem paciência para conversa fiada.",
+   "relacoes": "alvo das cantadas de Zé Massilon",
+   "local": "",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "ze-mochila",
+   "nome": "Zé Mochila",
+   "outros_nomes": [
+    "O Andarilho de Buraco Fundo",
+    "O Homem do Cachorro Preto"
+   ],
+   "papel": "Andarilho misterioso da região",
+   "grupo": "Moradores de Buraco Fundo",
+   "bordao": "Quem anda demais aprende até com o vento.",
+   "descricao": "Andarilho contador de histórias absurdas que vive surgindo nas estradas poeirentas do sertão, misturando verdade com mentira. É um dos personagens mais misteriosos e lendários da região, ligado à lenda do Cachorro Preto.",
+   "relacoes": "ligado à lenda do Cachorro Preto (Cachorro Muxiba), em que, segundo a história do povo, ele se transforma; sem relação com Zézinho da Mochila",
+   "local": "estradas do sertão",
+   "na_lista_oficial": true
+  },
+  {
+   "id": "cachorro-muxiba",
+   "nome": "Cachorro Muxiba",
+   "outros_nomes": [
+    "Cachorro Preto",
+    "Cachorro Zé Mochila",
+    "Cachorro Preto Maldito"
+   ],
+   "papel": "Assombração da lenda do Cachorro Preto",
+   "grupo": "Folclore",
+   "bordao": "",
+   "descricao": "A lenda mais famosa da região: moradores afirmam ver um enorme cachorro preto vagando pelas estradas durante a madrugada. A história do povo diz que é o cachorro em que Zé Mochila se transforma, e quando alguém comenta sobre o animal, ele responde: “Pois era eu.”",
+   "relacoes": "Zé Mochila, que segundo a história do povo se transforma nele",
+   "local": "estradas da região, de madrugada",
+   "na_lista_oficial": false
+  },
+  {
+   "id": "sogra-de-silfarnney",
+   "nome": "Sogra de Silfarnney",
+   "outros_nomes": [],
+   "papel": "",
+   "grupo": "Família Valença",
+   "bordao": "",
+   "descricao": "",
+   "relacoes": "sogra de Silfarnney Valença",
+   "local": "",
+   "na_lista_oficial": false
+  }
+ ],
+ "dicionario": [
+  {
+   "termo": "ABESTADO",
+   "significado": "Otário. Tolo.",
+   "exemplo": ""
+  },
+  {
+   "termo": "ARRETADO",
+   "significado": "Bom, legal, perfeito.",
+   "exemplo": ""
+  },
+  {
+   "termo": "AVALIE",
+   "significado": "Imagine.",
+   "exemplo": ""
+  },
+  {
+   "termo": "AVEXADO",
+   "significado": "Apressado.",
+   "exemplo": ""
+  },
+  {
+   "termo": "BIGU",
+   "significado": "Carona, condução gratuita.",
+   "exemplo": ""
+  },
+  {
+   "termo": "BOCA DE SIRI",
+   "significado": "Caladinho, na moita.",
+   "exemplo": ""
+  },
+  {
+   "termo": "BOCA-DE-TRAMELA",
+   "significado": "Pessoa que fala muito.",
+   "exemplo": ""
+  },
+  {
+   "termo": "BRECHAR",
+   "significado": "Espiar, espionar, espreitar.",
+   "exemplo": ""
+  },
+  {
+   "termo": "BULIÇOSO",
+   "significado": "Pessoa que mexe em tudo.",
+   "exemplo": "Não passa um minuto sem mudar o canal da televisão, a sintonia do rádio, etc."
+  },
+  {
+   "termo": "CABRA DA PESTE",
+   "significado": "Indivíduo destemido, provocador ou valentão.",
+   "exemplo": ""
+  },
+  {
+   "termo": "CAFUNDÓS DO JUDAS",
+   "significado": "Lugar distante.",
+   "exemplo": ""
+  },
+  {
+   "termo": "CIBAZOL",
+   "significado": "Coisa sem valor.",
+   "exemplo": "Não vale um cibazol."
+  },
+  {
+   "termo": "CORRER FROUXO",
+   "significado": "Ter em abundância.",
+   "exemplo": "Ali o dinheiro corre frouxo."
+  },
+  {
+   "termo": "CUSTAR",
+   "significado": "Demorar.",
+   "exemplo": "O ônibus está custando muito."
+  },
+  {
+   "termo": "DA BEXIGA",
+   "significado": "Em grande intensidade.",
+   "exemplo": "Estou com uma fome da bexiga!"
+  },
+  {
+   "termo": "DAR O GRAU",
+   "significado": "Caprichar.",
+   "exemplo": "Pode deixar que vou dar o grau no seu carro."
+  },
+  {
+   "termo": "GAIATO",
+   "significado": "Engraçado.",
+   "exemplo": ""
+  },
+  {
+   "termo": "GAITADA",
+   "significado": "Gargalhada.",
+   "exemplo": ""
+  },
+  {
+   "termo": "GALEGO",
+   "significado": "Loiro.",
+   "exemplo": ""
+  },
+  {
+   "termo": "ISPILICUTE",
+   "significado": "Do inglês “She's pretty cute”. Engraçadinha.",
+   "exemplo": ""
+  },
+  {
+   "termo": "LERIADO",
+   "significado": "Conversa fiada.",
+   "exemplo": ""
+  },
+  {
+   "termo": "LEVAR UM CUSCUZ",
+   "significado": "Levar um “fora”. Ouvir um “não” como resposta. Ter um pedido de dança recusado.",
+   "exemplo": ""
+  },
+  {
+   "termo": "MAINHA",
+   "significado": "Mãe.",
+   "exemplo": ""
+  },
+  {
+   "termo": "MATRACA",
+   "significado": "Cabra que fala sem parar, o tempo todo.",
+   "exemplo": ""
+  },
+  {
+   "termo": "MIÔLO DE POTE",
+   "significado": "Coisa sem importância.",
+   "exemplo": ""
+  },
+  {
+   "termo": "MURIÇOCA",
+   "significado": "Mosquito, pernilongo.",
+   "exemplo": ""
+  },
+  {
+   "termo": "NÃO DÁ UM PREGO NUMA BARRA DE SABÃO",
+   "significado": "Não faz nada, é um preguiçoso.",
+   "exemplo": ""
+  },
+  {
+   "termo": "ONDE O VENTO FAZ A CURVA",
+   "significado": "Bem longe.",
+   "exemplo": ""
+  },
+  {
+   "termo": "OXENTE",
+   "significado": "Expressão usada quando a pessoa sente espanto ou surpresa.",
+   "exemplo": ""
+  },
+  {
+   "termo": "PASSAR UMA SALIVA",
+   "significado": "Mentir.",
+   "exemplo": ""
+  },
+  {
+   "termo": "QUEBRAR A TRIPA GAITEIRA",
+   "significado": "Gargalhar sem controle.",
+   "exemplo": ""
+  },
+  {
+   "termo": "QUE SÓ A PESTE",
+   "significado": "Demais, grande quantidade. Muito.",
+   "exemplo": "Lá tem gente que só a peste!"
+  },
+  {
+   "termo": "QUEM GABA O SAPO É A JIA!",
+   "significado": "Pessoa que se elogia ou elogia a um dos seus.",
+   "exemplo": ""
+  },
+  {
+   "termo": "RAPAZ",
+   "significado": "Palavra utilizada para dirigir-se a um homem ou a uma mulher.",
+   "exemplo": ""
+  },
+  {
+   "termo": "SUSTANÇA",
+   "significado": "Energia dos alimentos.",
+   "exemplo": "Rapadura tem sustância."
+  },
+  {
+   "termo": "TÁ DE MATAR O GUARDA",
+   "significado": "Tá legal, gostoso.",
+   "exemplo": "Essa comida tá de matar o guarda."
+  },
+  {
+   "termo": "TEM É ZÉ",
+   "significado": "É muito difícil.",
+   "exemplo": "Tu ganhar de mim na sinuca? Tem é Zé!"
+  },
+  {
+   "termo": "VIXE!",
+   "significado": "Virgem Maria.",
+   "exemplo": ""
+  },
+  {
+   "termo": "XIMÃO",
+   "significado": "Indivíduo que olha demais para a comida de outra pessoa ou para quem está comendo.",
+   "exemplo": ""
+  },
+  {
+   "termo": "ZOADA",
+   "significado": "Barulho, confusão, gritaria, zumbido.",
+   "exemplo": ""
+  }
+ ],
+ "piadas": [
+  "Coloral está em cima de um poste quando Zé Coco sai do bar e grita:\nZé Coco: Homem, o que tu tá fazendo aí em cima?\nColoral: Tô comendo goiaba, homi!\nZé Coco: E desde quando nasce goiaba em poste?\nColoral: Eu trouxe no bolso, visse?",
+  "Professora: Zézinho, responda corretamente.\nZézinho: Corretamente ou sinceramente?\nProfessora: Meu Deus...",
+  "Tonho: Toma um café, Zé, pra melhorar o humor.\nZé Pavio: Humor é coisa de rico, Tonho! Eu quero é sombra!\nTonho: Pois se deitar debaixo do problema, homem!",
+  "Zé Pavio: Dentro daquela mochila cabe até uma mudança!\nZézinho: Cabe não... porque ainda tem meus deveres.",
+  "Pergunta: Seu Lídio, quando vão consertar a ponte?\nSeu Lídio: Meu amigo, estamos trabalhando firme em um grande projeto de mobilidade estrutural integrada que trará avanços significativos para nossa comunidade!\nA ponte continua quebrada.",
+  "Pergunta: Bom dia, Coloral!\nColoral: Bom diiiia meu patrão... Que Deus lhe dê um caminhão... Cheio de pão... E um balde de feijão..."
+ ],
+ "series_e_formatos": [
+  {
+   "nome": "O Doido Varrido Show",
+   "descricao": "Programa humorístico mais famoso de Buraco Fundo, apresentado por Silfarnney Valença, que mistura humor nordestino, causos sertanejos, filosofia de boteco, entrevistas malucas, emboladas improvisadas, críticas sociais bem-humoradas e sabedoria popular."
+  },
+  {
+   "nome": "Entrevista da Praça",
+   "descricao": "Quadro oficial do O Doido Varrido Show."
+  },
+  {
+   "nome": "Causos de Buraco Fundo",
+   "descricao": "Quadro oficial do O Doido Varrido Show."
+  },
+  {
+   "nome": "Desafio da Embolada",
+   "descricao": "Quadro oficial do O Doido Varrido Show."
+  },
+  {
+   "nome": "Mentira ou História de Zé Nego Fábim?",
+   "descricao": "Quadro oficial do O Doido Varrido Show; Zé Nego Fábim é a fonte inesgotável de histórias improváveis do programa."
+  },
+  {
+   "nome": "Conselhos Inúteis do Sertão",
+   "descricao": "Quadro oficial do O Doido Varrido Show."
+  },
+  {
+   "nome": "Café com Zé Tonhim",
+   "descricao": "Quadro oficial do O Doido Varrido Show; Zé Tonhim Café Doce é o responsável pelas mensagens otimistas."
+  },
+  {
+   "nome": "Filosofia com Fora de Prumo",
+   "descricao": "Quadro oficial do O Doido Varrido Show; Fora de Prumo é o parceiro oficial das filosofias malucas."
+  },
+  {
+   "nome": "Promessas de Seu Lídio",
+   "descricao": "Quadro oficial do O Doido Varrido Show; Seu Lídio Promessa é o alvo preferido das piadas políticas da vila."
+  },
+  {
+   "nome": "Cantadas de Buraco Fundo",
+   "descricao": "Série que acompanha as tentativas absurdas, engraçadas e quase sempre fracassadas de Zé Massilon, o Galã do Areal, para conquistar Auristela do Sol, Mirela da Lua e Jandira Raioforte."
+  },
+  {
+   "nome": "Os Doidos de Buraco Fundo",
+   "descricao": "Pôster de comédia com todos os personagens principais, com o subtítulo “Uma comédia arretada do sertão brasileiro”."
+  },
+  {
+   "nome": "Buraco Fundo: Os Doidos do Sertão (playlist)",
+   "descricao": "Playlist de músicas, causos e comédias com humor nordestino, forró, aboio e piseiro."
+  },
+  {
+   "nome": "Buraco Fundo: O Louco do Poste (videoclipe)",
+   "descricao": "Videoclipe quadro a quadro em que Coloral sobe num poste para comer goiaba e deixa Zé Coco completamente confuso."
+  },
+  {
+   "nome": "O Show de Coloral e Zé Pavio: A Goiabada Celestial (esquete)",
+   "descricao": "Esquete em três cenas em que Coloral apresenta o “Forró da Goiabada Mística” e Zé Pavio acaba entrando no ritmo."
+  },
+  {
+   "nome": "Coloral e a Lata Sagrada (roteiro falado)",
+   "descricao": "Monólogo de Coloral em frente à padaria, cantando e conversando com a lata de goiabada."
+  },
+  {
+   "nome": "Socorrinha Calada: Mulher do Chico Calado (videoclipe)",
+   "descricao": "Videoclipe com capa e thumbnail de Socorrinha Calada, com a chamada “Socorrinha Calada... só no nome!”."
+  },
+  {
+   "nome": "Episódios de Zé Mochila (série animada)",
+   "descricao": "Ideias de episódios no estilo Vila Buraco Fundo: O roubo das galinhas da vila, A noite do cachorro preto, O segredo da mochila velha, A estrada amaldiçoada de Buraco Fundo, O dia que Zé Mochila desapareceu e O contador de causos da feira."
+  },
+  {
+   "nome": "Emboladas de Zé Pavio e Tonho",
+   "descricao": "Vídeos e emboladas em que Tonho Café Doce faz as rimas de eco ou o refrão animado para as reclamações de Zé Pavio."
+  },
+  {
+   "nome": "Tirinhas de Buraco Fundo",
+   "descricao": "Tirinhas em caricatura cômica com cenários fixos do sertão (casa de taipa, cerca de madeira, mandacaru, chão rachado), já com estilo definido para Zé Encostado."
+  },
+  {
+   "nome": "Piada em quadrinhos “Zé Paulada O Galo Véio Safado”",
+   "descricao": "Quadrinho planejado em 10 quadros com thumbnail; só o título aparece nos textos."
+  },
+  {
+   "nome": "Produtos do projeto",
+   "descricao": "Shorts, Reels, TikToks, vídeos animados, tirinhas, histórias em quadrinhos, cordéis, músicas humorísticas, esquetes, livros, figurinhas, jogos futuros e séries animadas futuras."
+  }
+ ]
+}
