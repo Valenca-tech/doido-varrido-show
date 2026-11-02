@@ -1,13 +1,25 @@
 {
  "canal": {
-  "inscritos": 4630,
-  "visualizacoes": 1345540
+  "inscritos": 4680,
+  "visualizacoes": 1352527
  },
  "videos": [
   {
+   "id": "Z4zLZufQiyA",
+   "titulo_original": "Forró e Vaquejada — Completamente Vaqueiro | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
+   "views": 235,
+   "publicado": "2026-11-01",
+   "duracao": "6:18",
+   "familia": "Vaquejada",
+   "genero": "Forró e Vaquejada",
+   "titulo": "Completamente Vaqueiro",
+   "oculto": false,
+   "repetido": false
+  },
+  {
    "id": "URPWjuhX7ro",
    "titulo_original": "FORRÓ — SANGUE NORDESTINO | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 1000,
+   "views": 1100,
    "publicado": "2026-10-28",
    "duracao": "5:26",
    "familia": "Forró",
@@ -19,7 +31,7 @@
   {
    "id": "MyyfDvOlFxo",
    "titulo_original": "FORRÓ — NORDESTE NÃO É MISÉRIA | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 26000,
+   "views": 29000,
    "publicado": "2026-10-24",
    "duracao": "5:34",
    "familia": "Forró",
@@ -31,7 +43,7 @@
   {
    "id": "53ppEQ2xe-0",
    "titulo_original": "PIADAS DO DIA - VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR!  VOL: 4 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 307,
+   "views": 312,
    "publicado": "2026-10-17",
    "duracao": "12:30",
    "familia": "Piadas do Dia",
@@ -55,7 +67,7 @@
   {
    "id": "dBTr5cjn7jQ",
    "titulo_original": "Embolada — Os Dez  Mandamentos do Corno | Relançamento 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 383,
+   "views": 389,
    "publicado": "2026-10-02",
    "duracao": "4:04",
    "familia": "Embolada",
@@ -91,7 +103,7 @@
   {
    "id": "wGqRw_rLK8Y",
    "titulo_original": "Medo de Amar, Amar Sem Medo | Forró e Vaquejada | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 802,
+   "views": 806,
    "publicado": "2026-09-30",
    "duracao": "4:00",
    "familia": "Vaquejada",
@@ -115,7 +127,7 @@
   {
    "id": "28buD2qwJXA",
    "titulo_original": "Cordel da Velhinha e o Chapéu na Rodoviária | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 375,
+   "views": 376,
    "publicado": "2026-09-30",
    "duracao": "3:21",
    "familia": "Cordel",
@@ -127,7 +139,7 @@
   {
    "id": "GXHpYcqK0ZE",
    "titulo_original": "Forró e Vaquejada — A Morena É a Máquina | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 912,
+   "views": 914,
    "publicado": "2026-08-30",
    "duracao": "3:09",
    "familia": "Vaquejada",
@@ -151,7 +163,7 @@
   {
    "id": "CxieDx5XEkk",
    "titulo_original": "Forró — Vou Dar Um Sumiço Nesse Gato | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 982,
+   "views": 988,
    "publicado": "2026-08-30",
    "duracao": "3:45",
    "familia": "Forró",
@@ -211,7 +223,7 @@
   {
    "id": "b8HNJi0Nv_M",
    "titulo_original": "PIADAS DO DIA — VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR! VOL: 1 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 221,
+   "views": 222,
    "publicado": "2026-06-30",
    "duracao": "4:20",
    "familia": "Piadas do Dia",
@@ -223,7 +235,7 @@
   {
    "id": "hV1soHbcrx4",
    "titulo_original": "Forró Cômico — Sogra Não É Parente, É Prova de Fé | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 767,
+   "views": 773,
    "publicado": "2026-06-30",
    "duracao": "3:19",
    "familia": "Forró",
@@ -259,7 +271,7 @@
   {
    "id": "mdPps42wgcw",
    "titulo_original": "Forró — Quem Nunca? | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 886,
+   "views": 887,
    "publicado": "2026-05-31",
    "duracao": "4:55",
    "familia": "Forró",
@@ -451,7 +463,7 @@
   {
    "id": "qOXzrh1MXho",
    "titulo_original": "Forró Vaquejada — Amor da Minha Vida | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 709,
+   "views": 710,
    "publicado": "2026-03-31",
    "duracao": "4:20",
    "familia": "Vaquejada",
@@ -475,7 +487,7 @@
   {
    "id": "vkAD2pQjjBQ",
    "titulo_original": "Forró Vaquejada — Confissão de Vaqueiro | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 749,
+   "views": 751,
    "publicado": "2026-03-31",
    "duracao": "5:04",
    "familia": "Vaquejada",
@@ -511,7 +523,7 @@
   {
    "id": "ZKpPzGqIjf8",
    "titulo_original": "Forró Vaquejada – Oração do Vaqueiro | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 1300,
+   "views": 1400,
    "publicado": "2026-03-31",
    "duracao": "4:17",
    "familia": "Vaquejada",
@@ -523,7 +535,7 @@
   {
    "id": "hObhE4K1JmY",
    "titulo_original": "Forró Vaquejada — Saudades Que Machuca | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 949,
+   "views": 951,
    "publicado": "2026-03-31",
    "duracao": "4:12",
    "familia": "Vaquejada",
@@ -1028,7 +1040,7 @@
    "id": "3NUnzdmqNbI",
    "titulo_original": "Brega  - Volta Que o Café Esfria | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
    "views": 304,
-   "publicado": "2025-12-30",
+   "publicado": "2025-12-02",
    "duracao": "3:19",
    "familia": "Românticas",
    "genero": "Brega",
@@ -1184,7 +1196,7 @@
    "id": "yjDAs1bAtgM",
    "titulo_original": "🎶 Pisadinha — Garçom, Tem Pitú??? - Quando o amor não volta, só Pitú consola! 🍻 Silfarnney Valença ",
    "views": 6600,
-   "publicado": "2025-11-29",
+   "publicado": "2025-11-02",
    "duracao": "2:31",
    "familia": "Pisadinha",
    "genero": "Pisadinha",
@@ -1263,19 +1275,7 @@
    "titulo": "O Que Tem Debaixo do Tapete do Hospício?",
    "oculto": false,
    "repetido": false
-  },
-  {
-   "id": "Z4zLZufQiyA",
-   "titulo_original": "Forró e Vaquejada — Completamente Vaqueiro | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 85,
-   "publicado": null,
-   "duracao": "6:18",
-   "familia": "Vaquejada",
-   "genero": "Forró e Vaquejada",
-   "titulo": "Completamente Vaqueiro",
-   "oculto": false,
-   "repetido": false
   }
  ],
- "atualizado_em": "2026-11-01T15:59+00:00"
+ "atualizado_em": "2026-11-02T19:27+00:00"
 }
