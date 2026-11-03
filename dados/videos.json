@@ -1,13 +1,13 @@
 {
  "canal": {
-  "inscritos": 4680,
-  "visualizacoes": 1352527
+  "inscritos": 4710,
+  "visualizacoes": 1362624
  },
  "videos": [
   {
    "id": "Z4zLZufQiyA",
    "titulo_original": "Forró e Vaquejada — Completamente Vaqueiro | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 235,
+   "views": 317,
    "publicado": "2026-11-01",
    "duracao": "6:18",
    "familia": "Vaquejada",
@@ -31,7 +31,7 @@
   {
    "id": "MyyfDvOlFxo",
    "titulo_original": "FORRÓ — NORDESTE NÃO É MISÉRIA | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 29000,
+   "views": 30000,
    "publicado": "2026-10-24",
    "duracao": "5:34",
    "familia": "Forró",
@@ -43,7 +43,7 @@
   {
    "id": "53ppEQ2xe-0",
    "titulo_original": "PIADAS DO DIA - VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR!  VOL: 4 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 312,
+   "views": 313,
    "publicado": "2026-10-17",
    "duracao": "12:30",
    "familia": "Piadas do Dia",
@@ -67,7 +67,7 @@
   {
    "id": "dBTr5cjn7jQ",
    "titulo_original": "Embolada — Os Dez  Mandamentos do Corno | Relançamento 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 389,
+   "views": 392,
    "publicado": "2026-10-02",
    "duracao": "4:04",
    "familia": "Embolada",
@@ -115,7 +115,7 @@
   {
    "id": "rnQT6GPSlS4",
    "titulo_original": "PIADAS DO DIA — VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR! VOL: 2 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 136,
+   "views": 137,
    "publicado": "2026-09-30",
    "duracao": "6:33",
    "familia": "Piadas do Dia",
@@ -127,7 +127,7 @@
   {
    "id": "28buD2qwJXA",
    "titulo_original": "Cordel da Velhinha e o Chapéu na Rodoviária | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 376,
+   "views": 377,
    "publicado": "2026-09-30",
    "duracao": "3:21",
    "familia": "Cordel",
@@ -163,7 +163,7 @@
   {
    "id": "CxieDx5XEkk",
    "titulo_original": "Forró — Vou Dar Um Sumiço Nesse Gato | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 988,
+   "views": 990,
    "publicado": "2026-08-30",
    "duracao": "3:45",
    "familia": "Forró",
@@ -211,7 +211,7 @@
   {
    "id": "qTTFTRWOjOk",
    "titulo_original": "Forró — Ticic na frente e Tiçoc atrás 🕺 A Pescaria mais doida do Sertão!  | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 1300,
+   "views": 1400,
    "publicado": "2026-06-30",
    "duracao": "3:22",
    "familia": "Forró",
@@ -235,7 +235,7 @@
   {
    "id": "hV1soHbcrx4",
    "titulo_original": "Forró Cômico — Sogra Não É Parente, É Prova de Fé | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 773,
+   "views": 774,
    "publicado": "2026-06-30",
    "duracao": "3:19",
    "familia": "Forró",
@@ -307,7 +307,7 @@
   {
    "id": "APgVrNmgaso",
    "titulo_original": "Forró – QUASE FIQUEI CEGO COM A CATINGA! | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 4100,
+   "views": 4200,
    "publicado": "2026-05-31",
    "duracao": "4:59",
    "familia": "Forró",
@@ -487,7 +487,7 @@
   {
    "id": "vkAD2pQjjBQ",
    "titulo_original": "Forró Vaquejada — Confissão de Vaqueiro | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 751,
+   "views": 752,
    "publicado": "2026-03-31",
    "duracao": "5:04",
    "familia": "Vaquejada",
@@ -679,7 +679,7 @@
   {
    "id": "ebz0Jwr0cFw",
    "titulo_original": "Forró — Caipira Sábio “A Costela do Homem” | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 8600,
+   "views": 8700,
    "publicado": "2026-01-29",
    "duracao": "2:56",
    "familia": "Forró",
@@ -1171,7 +1171,7 @@
   {
    "id": "biJIfezAzt0",
    "titulo_original": "Sertanejo — Amor da Minha Vida | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 589,
+   "views": 594,
    "publicado": "2025-11-29",
    "duracao": "2:33",
    "familia": "Românticas",
@@ -1277,5 +1277,5 @@
    "repetido": false
   }
  ],
- "atualizado_em": "2026-11-02T19:27+00:00"
+ "atualizado_em": "2026-11-03T17:00+00:00"
 }
