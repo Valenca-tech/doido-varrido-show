@@ -46,18 +46,20 @@
   {
    "ativo": true,
    "titulo": "Música personalizada",
-   "texto": "Uma música cômica feita sob encomenda, com o nome e as histórias de quem você quer homenagear, no ritmo que você escolher: forró, sertanejo, brega, pisadinha, o que combinar com a pessoa. Pronta em até 7 dias.",
+   "texto": "Uma música cômica feita sob encomenda, com o nome e as histórias de quem você quer homenagear, no ritmo que você escolher: forró, sertanejo, brega, pisadinha, o que combinar com a pessoa.",
    "botao": "Pedir minha música",
    "mensagem": "Olá! Vim pelo site e quero uma música personalizada do Doido Varrido Show.",
-   "preco": "A partir de R$ 129"
+   "preco": "A partir de R$ 129",
+   "prazo": "Até 7 dias"
   },
   {
    "ativo": true,
    "titulo": "Jingle para o seu comércio",
-   "texto": "Propaganda cantada no ritmo que combina com a sua loja, para carro de som, rádio, Instagram e status do WhatsApp. O cliente lembra do seu nome porque riu dele. Pronto em até 7 dias.",
+   "texto": "Propaganda cantada no ritmo que combina com a sua loja, para carro de som, rádio, Instagram e status do WhatsApp. O cliente lembra do seu nome porque riu dele.",
    "botao": "Pedir um jingle",
    "mensagem": "Olá! Vim pelo site e quero um jingle do Doido Varrido Show para o meu comércio.",
-   "preco": "A partir de R$ 249"
+   "preco": "A partir de R$ 249",
+   "prazo": "Até 7 dias"
   },
   {
    "ativo": true,

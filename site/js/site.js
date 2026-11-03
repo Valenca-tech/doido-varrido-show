@@ -30,7 +30,19 @@
     menu.addEventListener("click", (ev) => { if (ev.target.closest("a")) fechar(); });
     document.addEventListener("click", (ev) => { if (aberto() && !topo.contains(ev.target)) fechar(); });
     document.addEventListener("keydown", (ev) => { if (ev.key === "Escape" && aberto()) { fechar(); botao.focus(); } });
-    addEventListener("resize", () => { if (aberto() && innerWidth > 880) fechar(); });
+    addEventListener("resize", () => { if (aberto() && innerWidth > 900) fechar(); });
+  }
+
+  // Plantão extraordinário: botão para pausar e retomar as manchetes
+  const letreiro = document.querySelector("[data-letreiro]");
+  if (letreiro) {
+    const pausar = letreiro.querySelector("[data-pausar]");
+    const rotulo = pausar.querySelector(".sr");
+    pausar.addEventListener("click", () => {
+      const parado = letreiro.classList.toggle("pausado");
+      pausar.setAttribute("aria-pressed", String(parado));
+      rotulo.textContent = parado ? "Continuar as manchetes" : "Pausar as manchetes";
+    });
   }
 
   // Balões que aparecem quando entram na tela
@@ -170,10 +182,11 @@
     const foco = () => quadro.querySelector("h3")?.focus({ preventScroll: true });
     const pergunta = () => {
       const q = dados.perguntas[i];
-      quadro.innerHTML = `<div class="progresso" aria-hidden="true">${dados.perguntas.map((_, k) => `<span class="${k < i ? "feito" : ""}"></span>`).join("")}</div>
-        <p class="sr">Pergunta ${i + 1} de ${total}</p>
+      quadro.innerHTML = `<div class="entrar">
+        <div class="placar-teste"><span>Pergunta ${i + 1} de ${total}</span>
+          <div class="progresso" aria-hidden="true">${dados.perguntas.map((_, k) => `<span class="${k < i ? "feito" : k === i ? "agora" : ""}"></span>`).join("")}</div></div>
         <h3 tabindex="-1">${esc(q.texto)}</h3>
-        <ul class="opcoes">${q.opcoes.map((o, k) => `<li><button type="button" class="balao" data-k="${k}">${esc(o.texto)}</button></li>`).join("")}</ul>`;
+        <ul class="opcoes">${q.opcoes.map((o, k) => `<li><button type="button" class="opcao" data-k="${k}"><span class="letra" aria-hidden="true">${String.fromCharCode(65 + k)}</span><span>${esc(o.texto)}</span></button></li>`).join("")}</ul></div>`;
       foco();
     };
     const resultado = () => {
@@ -182,7 +195,7 @@
       const id = [...ordem].reverse().find((r) => empatados.includes(r));
       const p = dados.resultados[id];
       const texto = `Fiz o teste do Vilarejo Buraco Fundo e deu ${p.nome}! “${p.bordao}”${dados.endereco ? ` Descubra o seu: ${dados.endereco}` : ""}`;
-      quadro.innerHTML = `<div class="resultado">
+      quadro.innerHTML = `<div class="resultado entrar">
         <img src="${esc(p.img)}" alt="Ilustração de ${esc(p.nome)}" width="520" height="780">
         <div>
           <p class="deu">Em Buraco Fundo, você seria</p>
@@ -190,9 +203,9 @@
           <blockquote class="balao rabo-esq"><p>“${esc(p.bordao)}”</p></blockquote>
           <p>${esc(p.descricao)}</p>
           <div class="botoes">
-            <a class="botao verde" href="https://wa.me/?text=${encodeURIComponent(texto)}" target="_blank" rel="noopener">Mandar no WhatsApp</a>
-            <a class="botao papel" href="${esc(p.link)}">Ver a ficha</a>
-            <button class="botao papel" type="button" data-refazer>Refazer o teste</button>
+            <a class="botao" href="https://wa.me/?text=${encodeURIComponent(texto)}" target="_blank" rel="noopener">Mandar no WhatsApp</a>
+            <a class="botao secundario" href="${esc(p.link)}">Ver a ficha</a>
+            <button class="botao secundario" type="button" data-refazer>Refazer o teste</button>
           </div>
         </div>
       </div>`;

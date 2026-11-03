@@ -60,6 +60,8 @@ ICONE = {
     "instagram": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></svg>',
     "tiktok": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3.5v11a3.4 3.4 0 1 1-3.4-3.4" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><path d="M14 3.5c.5 2.7 2.4 4.4 5 4.6" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg>',
     "facebook": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H8v3h2.6V21z" fill="currentColor"/></svg>',
+    "pausa": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>',
+    "megafone": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10v4h3l9 5V5L6 10z" fill="currentColor"/><path d="M18 9a4 4 0 0 1 0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M7 14l1.5 5h2.5L10 15" fill="currentColor"/></svg>',
 }
 
 
@@ -195,10 +197,11 @@ def carrossel(itens, classe, rotulo):
             f'<button class="seta" type="button" data-proximo aria-label="Avançar">{ICONE["dir"]}</button></div></div>')
 
 
-def folheto(p, prof=0, com_balao=True):
-    balao = f'<span class="balao rabo-cima">{e(p["bordao"])}</span>' if com_balao and p.get("bordao") else ""
-    return (f'<li class="folheto"><a href="{link_morador(p, prof)}"><img src="{retrato(p, prof)}" alt="" width="520" height="780" loading="lazy">'
-            f'{balao}<strong>{e(p["nome"])}</strong></a></li>')
+def folheto(p, prof=0):
+    """Cartão de morador: retrato em evidência, nome e o bordão logo abaixo, em segundo plano."""
+    bordao = f'<span class="bordao">“{e(p["bordao"])}”</span>' if p.get("bordao") else ""
+    return (f'<li class="folheto"><a href="{link_morador(p, prof)}"><span class="moldura"><img src="{retrato(p, prof)}" alt="" width="520" height="780" loading="lazy"></span>'
+            f'<span class="texto-folheto"><strong>{e(p["nome"])}</strong>{bordao}</span></a></li>')
 
 
 def item_video(v, prof=0):
@@ -216,12 +219,13 @@ def fala(p, texto_html, legenda_html, prof=0, rabo="40%"):
 
 
 def topo(ativo, prof):
-    """Barra de palco: faixa escura, selo do Doido pendurado e, no celular, menu em painel com um morador por seção."""
+    """Cabeçalho escuro com o logo, menu horizontal no computador e, no celular, painel com um morador por seção."""
     r = "../" * prof
-    menu = [("musicas.html", "Músicas", "coloral", f"{len(musicas)} músicas, do forró à vaquejada"),
+    menu = [("index.html", "Início", "silfarnney-valenca", "O forró mais doido do Brasil"),
+            ("musicas.html", "Músicas", "coloral", f"{len(musicas)} músicas, do forró à vaquejada"),
             ("vilarejo.html", "Vilarejo", "ze-corneteiro", "Lugares, lendas e a Lei dos Zés"),
             ("moradores.html", "Moradores", "ze-pavio", f"{len(personagens)} figuras da vila"),
-            ("index.html#teste", "Quem é você?", "ze-conversa", "O teste de Buraco Fundo"),
+            ("index.html#diversao", "Diversão", "ze-conversa", "O teste de Buraco Fundo e as figurinhas"),
             ("index.html#contrate", "Contrate", "ze-coco", "Música, jingle e divulgação")]
     itens = "".join(
         f'<li><a href="{r}{h}"{" aria-current=\"page\"" if h == ativo else ""}>'
@@ -230,7 +234,7 @@ def topo(ativo, prof):
         for h, t, pid, dica in menu if pid in por_id)
     redes = [n for n in ("youtube", "instagram", "facebook", "tiktok") if cfg["redes"].get(n)]
     icones = "".join(f'<a href="{e(link_rede(n))}" target="_blank" rel="noopener" aria-label="{NOME_REDE[n]} do Doido Varrido">{ICONE[n]}</a>' for n in redes)
-    botoes = "".join(f'<a class="botao {n}" href="{e(link_rede(n))}" target="_blank" rel="noopener">{NOME_REDE[n]}</a>' for n in redes)
+    botoes = "".join(f'<a class="botao secundario" href="{e(link_rede(n))}" target="_blank" rel="noopener">{ICONE[n]}{NOME_REDE[n]}</a>' for n in redes)
     return f"""<a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo" data-topo>
  <div class="miolo">
@@ -241,7 +245,7 @@ def topo(ativo, prof):
   </nav>
   <div class="topo-acoes">
    <div class="redes-topo">{icones}</div>
-   <a class="botao apoiar" href="{r}index.html#apoie">Apoiar</a>
+   <a class="botao secundario apoiar" href="{r}index.html#apoie">Apoie</a>
    <button class="abrir-menu" type="button" aria-expanded="false" aria-controls="menu" data-menu><span class="hamburguer" aria-hidden="true"></span><span class="rotulo">Menu</span></button>
   </div>
  </div>
@@ -314,11 +318,11 @@ def pagina(arquivo, titulo, descricao, corpo, ativo="", prof=0, imagem="img/comp
 <meta property="og:description" content="{e(descricao)}">
 <meta property="og:image" content="{e(img_og)}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#FBC02D">
+<meta name="theme-color" content="#24122F">
 <link rel="icon" href="{r}img/logo-doido-varrido.webp" type="image/webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&family=Alegreya+Sans:wght@500;700;800&family=Ultra&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@500;600;700;800&family=Patua+One&display=swap">
 <link rel="stylesheet" href="{r}css/estilo.css?v={versao('css/estilo.css')}">
 <script>document.documentElement.classList.add("js")</script>
 {extra}</head>
@@ -342,25 +346,75 @@ def pagina(arquivo, titulo, descricao, corpo, ativo="", prof=0, imagem="img/comp
 
 # ---------- página inicial ----------
 
+def guia():
+    """Guia da página inicial: um cartão por coisa que o site tem, com número, gancho e link, para quem tem pressa."""
+    servico = {s["titulo"]: s for s in cfg["servicos"] if s.get("ativo")}
+    vm = cfg.get("vire_morador") or {}
+    pt = cfg.get("patrocinio") or {}
+    preco_vm = (vm.get("pacotes") or [{}])[0].get("preco", "")
+    lugares = sum(1 for c in uni["universo"]["cenarios"] if c.get("oficial"))
+    figs = lista_figurinhas()
+    musica, jingle = servico.get("Música personalizada", {}), servico.get("Jingle para o seu comércio", {})
+    # (categoria, personagem, número em destaque, o que é, gancho, link, mostrar?)
+    cartoes = [
+        ("Ouvir", "coloral", str(len(musicas)), "músicas", "Do forró à vaquejada, tocando aqui mesmo, sem sair do site.", "musicas.html", True),
+        ("Assistir", "ze-conversa", str(len(piadas)), "Piadas do Dia", "Os causos da vila contados pelo Doido.", "vilarejo.html#piadas", bool(piadas)),
+        ("Conhecer", "ze-corneteiro", str(lugares), "lugares na vila", "E a lenda de por que metade do povo se chama Zé.", "vilarejo.html", True),
+        ("Conhecer", "raimunda", str(len(personagens)), "moradores", "Cada um com seu bordão. Qual é o seu preferido?", "moradores.html", True),
+        ("Brincar", "ze-tonhim-cafe-doce", str(len(teste["perguntas"])), "perguntas", "Descubra qual morador de Buraco Fundo você seria.", "#teste", True),
+        ("Grátis", "ze-fiado", str(len(figs)), "figurinhas", "Com os bordões da vila, prontas pro seu WhatsApp.", "figurinhas.html", bool(figs)),
+        ("Encomendar", "silfarnney-valenca", musica.get("preco", ""), "Música personalizada", "Uma música com o nome e as histórias de quem você quer homenagear.", "#contrate", bool(musica)),
+        ("Encomendar", "ze-coco", jingle.get("preco", ""), "Jingle pro seu comércio", "Propaganda cantada que o cliente não esquece.", "#contrate", bool(jingle)),
+        ("Encomendar", "ze-pavio", f"A partir de {preco_vm}" if preco_vm else "", "Vire morador da vila", "Sua caricatura no estilo de Buraco Fundo, com apelido e bordão.", "#vire-morador", bool(vm.get("ativo"))),
+        ("Anunciar", "ze-barrao", (servico.get("Sua marca nos vídeos") or {}).get("preco", ""), "Sua marca nos vídeos", "Para o comércio aparecer pra quem assiste o canal.", "patrocinio.html", bool(pt.get("ativo"))),
+        ("Conhecer", "silfarnney-valenca", "Quem faz", "Silfarnney Valença", "O homem de verdade por trás do Doido Varrido.", "#quem-faz", bool((cfg.get("quem_faz") or {}).get("ativo"))),
+        ("Apoiar", "ze-fiado", "PIX", "Apoie o canal", "Qualquer valor ajuda a ter vídeo novo toda semana.", "#apoie", True),
+    ]
+    itens = "".join(
+        f'<li><a class="atalho" href="{h}"><img src="{retrato(por_id[pid])}" alt="" width="520" height="780" loading="lazy">'
+        f'<span class="cat">{e(cat_)}</span><span class="numero{" preco-atalho" if not num.isdigit() else ""}">{e(num)}</span>'
+        f'<span class="titulo-atalho">{e(tit)}</span><span class="gancho">{e(ganc)}</span><span class="ir" aria-hidden="true">{ICONE["dir"]}</span></a></li>'
+        for cat_, pid, num, tit, ganc, h, ok in cartoes if ok and pid in por_id)
+    return f"""
+<section class="faixa clara guia" id="guia" aria-labelledby="t-guia">
+ <div class="miolo">
+  <div class="cabeca-faixa">
+   <div>
+    <p class="sobretitulo">Guia da vila</p>
+    <h2 id="t-guia">Tudo o que tem em Buraco Fundo</h2>
+   </div>
+   <p>Escolha por onde começar. Cada cartão leva direto pro assunto.</p>
+  </div>
+  <ul class="atalhos">{itens}</ul>
+ </div>
+</section>
+"""
+
+
 def inicio():
     silf = por_id["silfarnney-valenca"]
     frase = uni["silfarnney"]["frases"][2]
-    meta_lanc = f"Lançamento · {lancamento.get('genero') or lancamento['familia']} · {fmt_views(lancamento['views'])}"
+    genero_lanc = lancamento.get("genero") or lancamento["familia"]
     plantao = "".join(f"<li>{e(t)}</li>" for t in cfg.get("plantao", []))
 
     parada = "".join(
         f'<li><a href="{yt(v["id"])}" data-faixa data-id="{v["id"]}" data-titulo="{e(v["titulo"])}" '
         f'data-meta="{e((v.get("genero") or v["familia"]) + " · " + fmt_views(v["views"]))}">'
+        f'<span class="pos">{i:02d}</span>'
         f'<img class="capa-faixa" src="{capa(v["id"], "mqdefault")}" alt="" width="320" height="180" loading="lazy">'
-        f'<span class="pos">{i}</span><span><span class="nome">{e(v["titulo"])}</span>'
-        f'<span class="meta">{e(v.get("genero") or v["familia"])}<span class="so-celular"> · {fmt_num(v["views"])}</span></span></span>'
-        f'<span class="views">{fmt_num(v["views"])}</span></a></li>'
-        for i, v in enumerate(mais_vistas, 1))
+        f'<span class="faixa-texto"><span class="nome">{e(v["titulo"])}</span>'
+        f'<span class="meta">{e(v.get("genero") or v["familia"])} · {fmt_num(v["views"])} visualizações</span></span>'
+        f'<span class="tocar" aria-hidden="true">{ICONE["play"]}</span></a></li>'
+        for i, v in enumerate(mais_vistas[:5], 1))
 
-    baloes = [f'<li><figure class="comentario"><blockquote class="balao revelar"><p>{e(emoji_colorido(c["texto"]))}</p></blockquote>'
-              f'<figcaption>{ICONE["yt"]}<span>Comentário em <a href="{yt(c["video_id"])}" data-video="{c["video_id"]}" '
-              f'data-titulo="{e(c["video_titulo"])}">{e(c["video_titulo"])}</a></span></figcaption></figure></li>'
-              for c in comentarios]
+    def comentario(c, classe=""):
+        return (f'<figure class="comentario{classe}"><blockquote><p>{e(emoji_colorido(c["texto"]))}</p></blockquote>'
+                f'<figcaption>{ICONE["yt"]}<span>Comentário em <a href="{yt(c["video_id"])}" data-video="{c["video_id"]}" '
+                f'data-titulo="{e(c["video_titulo"])}">{e(c["video_titulo"])}</a></span></figcaption></figure>')
+    # no mural ficam os três comentários mais longos; os outros seguem no trilho, na ordem do arquivo
+    longos = sorted(comentarios, key=lambda c: -len(c["texto"]))[:3]
+    destaques_povo = "".join(f"<li>{comentario(c, ' destaque')}</li>" for c in longos)
+    mais_povo = [f"<li>{comentario(c)}</li>" for c in comentarios if c not in longos]
 
     frases_vila = re.split(r"(?<=[.!?])\s+", uni["universo"]["apresentacao"])
     resumo_vila = " ".join(frases_vila[1:]) if len(frases_vila) > 2 else uni["universo"]["apresentacao"]
@@ -380,21 +434,23 @@ def inicio():
     }
     rostos = "".join(f'<img src="{retrato(por_id[i])}" alt="" width="520" height="780" loading="lazy">' for i in ids_teste[:5])
 
-    anuncios = [f'<li><article class="anuncio"><h3>{e(s["titulo"])}</h3><p>{e(s["texto"])}</p>'
-                + (f'<p class="preco-anuncio">{e(s["preco"])}</p>' if s.get("preco") else "")
-                + (f'<a class="botao" href="{e(s["link"])}">{e(s["botao"])}</a>' if s.get("link") else
-                   f'<a class="botao" href="{e(wa(s["mensagem"]))}" target="_blank" rel="noopener">{ICONE["whats"]}{e(s["botao"])}</a>')
-                + '</article></li>'
-                for s in cfg["servicos"] if s.get("ativo")]
+    anuncios = []
+    for s in cfg["servicos"]:
+        if not s.get("ativo"):
+            continue
+        ficha = [("Preço", s.get("preco")), ("Prazo", s.get("prazo"))]
+        dl = "".join(f"<div><dt>{a}</dt><dd>{e(b)}</dd></div>" for a, b in ficha if b)
+        botao = (f'<a class="botao secundario" href="{e(s["link"])}">{e(s["botao"])}</a>' if s.get("link") else
+                 f'<a class="botao" href="{e(wa(s["mensagem"]))}" target="_blank" rel="noopener">{ICONE["whats"]}{e(s["botao"])}</a>')
+        anuncios.append(f'<li><article class="anuncio"><h3>{e(s["titulo"])}</h3><p>{e(s["texto"])}</p>'
+                        f'{f"<dl>{dl}</dl>" if dl else ""}{botao}</article></li>')
     eb = cfg.get("em_breve", {})
     em_breve = (f'<div class="em-breve"><div><h3>{e(eb["titulo"])}</h3><p>{e(eb["texto"])}</p></div>'
-                f'<a class="botao papel" href="{e(wa(eb["mensagem"]))}" target="_blank" rel="noopener">{e(eb["botao"])}</a></div>') if eb.get("ativo") else ""
+                f'<a class="botao secundario" href="{e(wa(eb["mensagem"]))}" target="_blank" rel="noopener">{e(eb["botao"])}</a></div>') if eb.get("ativo") else ""
     numeros = [(fmt_num(canal["visualizacoes"]), "de visualizações no YouTube") if canal.get("visualizacoes") else None,
                (fmt_num(canal["inscritos"]), "inscritos no canal") if canal.get("inscritos") else None,
                (str(len(cat["videos"])), "vídeos no canal")]
     numeros_html = "".join(f"<li><strong>{a}</strong>{b}</li>" for a, b in filter(None, numeros))
-    selo = (f'<p class="selo-views"><strong>{fmt_num(canal["visualizacoes"])}</strong>de visualizações</p>'
-            if canal.get("visualizacoes") else "")
 
     pix = cfg.get("pix", {})
     apoie = cfg.get("apoie", {})
@@ -404,71 +460,73 @@ def inicio():
 
     redes = "".join(
         f'<li class="rede-chamada"><blockquote class="balao revelar"><p>{e(c["fala"])}</p></blockquote>'
-        f'<img src="{retrato(por_id[c["personagem"]])}" alt="{e(por_id[c["personagem"]]["nome"])}" width="520" height="780" loading="lazy">'
-        f'<a class="botao {c["rede"]}" href="{e(link_rede(c["rede"]))}" target="_blank" rel="noopener">{e(c["botao"])}</a></li>'
+        f'<div class="quem-chama"><img src="{retrato(por_id[c["personagem"]])}" alt="{e(por_id[c["personagem"]]["nome"])}" width="520" height="780" loading="lazy">'
+        f'<a class="botao secundario" href="{e(link_rede(c["rede"]))}" target="_blank" rel="noopener">{ICONE.get(c["rede"], ICONE["whats"])}{e(c["botao"])}</a></div></li>'
         for c in cfg.get("chamadas_redes", []) if c["personagem"] in por_id and link_rede(c["rede"]))
 
     ld = {"@context": "https://schema.org", "@type": "Person", "name": cfg["criador"], "alternateName": cfg["nome"],
           "description": cfg["descricao"], "sameAs": [u for u in cfg["redes"].values() if u]}
 
     corpo = f"""
-<section class="cartaz serrilha-baixo">
- <div class="bandeirinhas" aria-hidden="true"></div>
+<section class="capa" aria-labelledby="t-capa">
+ <div class="lampadas" aria-hidden="true"></div>
  <div class="miolo">
-  <div>
-   <h1>{e(cfg['frase_capa'])}</h1>
+  <div class="capa-texto">
+   <p class="sobretitulo">{e(cfg['nome'])}</p>
+   <h1 id="t-capa">{e(cfg['frase_capa'])}</h1>
    <p class="chamada">{e(cfg['descricao'])}</p>
    <div class="botoes">
     <a class="botao" href="#radio">{ICONE['play']}Ouvir as mais pedidas</a>
-    <a class="botao papel" href="#teste">Quem é você em Buraco Fundo?</a>
+    <a class="botao secundario" href="#teste">Quem é você em Buraco Fundo?</a>
    </div>
+   <a class="ver-tudo" href="#guia">Veja tudo o que tem no site{ICONE['dir']}</a>
   </div>
   <div class="palco">
-   <blockquote class="balao revelar"><p>“{e(frase)}”</p></blockquote>
-   <figure class="retrato-capa">
+   <blockquote class="balao rabo-baixo revelar"><p>“{e(frase)}”</p></blockquote>
+   <figure class="astro">
     <img src="{retrato(silf)}" alt="Caricatura de Silfarnney Valença de terno preto e óculos escuros, segurando um microfone antigo" width="520" height="780" fetchpriority="high">
     <figcaption>{e(cfg['criador'])}</figcaption>
    </figure>
-   {selo}
   </div>
  </div>
 </section>
 
-<aside class="letreiro" aria-label="Plantão extraordinário: notícias de Buraco Fundo">
- <span class="selo">Plantão extraordinário!</span>
+<aside class="letreiro" aria-label="Plantão extraordinário: as manchetes de mentirinha do Vilarejo Buraco Fundo" data-letreiro>
+ <p class="selo">{ICONE['megafone']}<span>Plantão extraordinário<small>Direto de Buraco Fundo</small></span></p>
  <div class="janela" tabindex="0"><div class="rolo"><ul>{plantao}</ul><ul aria-hidden="true">{plantao}</ul></div></div>
+ <button class="pausar" type="button" data-pausar aria-pressed="false">{ICONE['pausa']}{ICONE['play']}<span class="sr">Pausar as manchetes</span></button>
 </aside>
-
-<section class="faixa" id="radio" aria-labelledby="t-radio">
+{guia()}
+<section class="radio-fm" id="radio" aria-labelledby="t-radio">
  <div class="miolo">
   <div class="cabeca-faixa">
-   <h2 id="t-radio">As mais pedidas da Rádio Buraco Fundo FM</h2>
-   <p><a class="ver-mais" href="musicas.html">Ver todas as {len(musicas)} músicas</a></p>
+   <div>
+    <p class="sobretitulo">No ar</p>
+    <h2 id="t-radio">Rádio Buraco Fundo FM</h2>
+   </div>
+   <a class="botao secundario" href="musicas.html">Ver todas as {len(musicas)} músicas</a>
   </div>
   <div class="radio">
-   <div class="tocador" data-tocador data-id="{lancamento['id']}" data-titulo="{e(lancamento['titulo'])}">
-    <div class="tela">
-     <img src="{capa(lancamento['id'], 'hqdefault')}" alt="" width="480" height="360">
-     <button class="play" type="button" aria-label="Tocar {e(lancamento['titulo'])}">{ICONE['play']}</button>
+   <div class="aparelho">
+    <div class="tocador" data-tocador data-id="{lancamento['id']}" data-titulo="{e(lancamento['titulo'])}">
+     <div class="tela">
+      <img src="{capa(lancamento['id'], 'hqdefault')}" alt="" width="480" height="360">
+      <button class="play" type="button" aria-label="Tocar {e(lancamento['titulo'])}">{ICONE['play']}</button>
+     </div>
+     <p class="etiqueta">Lançamento</p>
+     <p class="legenda">{e(lancamento['titulo'])}<small>{e(genero_lanc)} · {e(fmt_views(lancamento['views']))}</small></p>
     </div>
-    <p class="legenda">{e(lancamento['titulo'])}<small>{e(meta_lanc)}</small></p>
+    <div class="dial" aria-hidden="true"><span></span></div>
    </div>
-   <ol class="parada" aria-label="As dez mais vistas">{parada}</ol>
+   <div class="parada-bloco">
+    <h3>As mais pedidas</h3>
+    <ol class="parada" aria-label="As cinco mais vistas">{parada}</ol>
+   </div>
   </div>
  </div>
 </section>
 
-<section class="faixa clara" aria-labelledby="t-povo">
- <div class="miolo">
-  <div class="cabeca-faixa">
-   <h2 id="t-povo">O povo tá dizendo</h2>
-   <p>Comentários de verdade, tirados dos vídeos do canal.</p>
-  </div>
-  {carrossel(baloes, "comentarios", "Comentários do povo no YouTube")}
- </div>
-</section>
-{quem_faz()}
-<section aria-labelledby="t-vila">
+<section class="vila" aria-labelledby="t-vila">
  <div class="panorama">
   <img src="img/vila-panorama.webp" alt="Rua de terra do Vilarejo Buraco Fundo ao pôr do sol, com casas coloridas, mandacarus, um jegue e a igreja ao fundo" width="1920" height="1080" loading="lazy">
   <div class="placa">
@@ -476,17 +534,21 @@ def inicio():
    <p>{e(uni['universo']['slogans'][0])}</p>
   </div>
  </div>
- <div class="faixa">
+ <div class="faixa creme">
   <div class="miolo duas">
-   <div>
+   <div class="historia">
+    <p class="sobretitulo">A história</p>
     <h2 id="t-vila">Onde o vento faz a curva</h2>
     <p>{e(resumo_vila)}</p>
     <div class="botoes">
      <a class="botao" href="vilarejo.html">Conhecer o vilarejo</a>
-     <a class="botao papel" href="vilarejo.html#piadas">Assistir às Piadas do Dia</a>
+     <a class="botao secundario" href="vilarejo.html#piadas">Assistir às Piadas do Dia</a>
     </div>
    </div>
-   {fala(conversa, e(lenda_curta), f'{e(conversa["nome"])}, contando a Lenda dos Zés. <a href="vilarejo.html#zes">Ler a lenda inteira</a>')}
+   <div class="cordel">
+    <p class="capitulo">A Lenda dos Zés</p>
+    {fala(conversa, e(lenda_curta), f'{e(conversa["nome"])}, contando a Lenda dos Zés. <a href="vilarejo.html#zes">Ler a lenda inteira</a>')}
+   </div>
   </div>
  </div>
 </section>
@@ -494,16 +556,22 @@ def inicio():
 <section class="faixa clara" aria-labelledby="t-gente">
  <div class="miolo">
   <div class="cabeca-faixa">
-   <h2 id="t-gente">Gente de Buraco Fundo</h2>
-   <p><a class="ver-mais" href="moradores.html">Ver todos os {len(personagens)} moradores</a></p>
+   <div>
+    <p class="sobretitulo">Os moradores</p>
+    <h2 id="t-gente">Gente de Buraco Fundo</h2>
+   </div>
+   <a class="botao secundario" href="moradores.html">Ver todos os {len(personagens)} moradores</a>
   </div>
   {carrossel(gente, "folhetos-trilho", "Moradores de Buraco Fundo")}
  </div>
 </section>
-{faixa_figurinhas()}
-<section class="faixa ceu" id="teste" aria-labelledby="t-teste" data-teste>
+
+<div id="diversao">
+<section class="faixa auditorio" id="teste" aria-labelledby="t-teste" data-teste>
  <script type="application/json">{json_no_html(dados_teste)}</script>
+ <div class="lampadas" aria-hidden="true"></div>
  <div class="miolo">
+  <p class="sobretitulo">Diversão</p>
   <h2 id="t-teste">{e(teste['titulo'])}</h2>
   <div class="quadro-teste" aria-live="polite">
    <div class="teste-inicio">
@@ -516,13 +584,31 @@ def inicio():
   </div>
  </div>
 </section>
+{faixa_figurinhas()}
+</div>
+
+<section class="faixa vinho" aria-labelledby="t-povo">
+ <div class="miolo">
+  <div class="cabeca-faixa">
+   <div>
+    <p class="sobretitulo">Comentários dos fãs</p>
+    <h2 id="t-povo">O povo tá dizendo</h2>
+   </div>
+   <p>Comentários de verdade, tirados dos vídeos do canal.</p>
+  </div>
+  <ul class="mural">{destaques_povo}</ul>
+  {f'<h3 class="mais-comentarios">Mais comentários</h3>{carrossel(mais_povo, "comentarios", "Mais comentários do povo no YouTube")}' if mais_povo else ""}
+ </div>
+</section>
+{quem_faz()}
 {vire_morador()}
 <section class="faixa clara" id="contrate" aria-labelledby="t-contrate">
  <div class="miolo">
+  <p class="sobretitulo">Serviços</p>
   <h2 id="t-contrate">Contrate o Doido Varrido</h2>
   <p class="sub">Música, jingle ou divulgação com a cara do Nordeste. Chame no WhatsApp, conte o que você quer e receba o orçamento.</p>
   <ul class="numeros">{numeros_html}</ul>
-  {carrossel(anuncios, "anuncios-trilho", "Serviços")}
+  <ul class="anuncios">{"".join(anuncios)}</ul>
   {em_breve}
  </div>
 </section>
@@ -544,7 +630,7 @@ def inicio():
  </div>
 </section>
 
-<section class="faixa" id="siga" aria-labelledby="t-siga">
+<section class="faixa escura" id="siga" aria-labelledby="t-siga">
  <div class="miolo">
   <h2 id="t-siga">Siga o Doido Varrido</h2>
   <ul class="redes">{redes}</ul>
@@ -564,7 +650,7 @@ def pagina_musicas():
                        for f, n in contagem.items() if n)
     lista = "".join(item_video(v) for v in sorted(musicas, key=lambda v: -v["views"]))
     corpo = f"""
-<section class="abertura serrilha-baixo">
+<section class="abertura">
  <div class="miolo">
   <h1>Todas as músicas</h1>
   <p>{len(musicas)} vídeos do canal, do forró cômico à vaquejada. Toque aqui mesmo, sem sair do site.</p>
@@ -579,7 +665,7 @@ def pagina_musicas():
  <div class="miolo">
   <ul class="catalogo" data-catalogo>{lista}</ul>
   <p class="vazio" hidden>Nenhuma música com esse nome. Tente outra palavra ou escolha “Todas”.</p>
-  <div class="mais-musicas"><p class="contador" role="status"></p><button class="botao papel" type="button" data-mais hidden>Mostrar mais músicas</button></div>
+  <div class="mais-musicas"><p class="contador" role="status"></p><button class="botao secundario" type="button" data-mais hidden>Mostrar mais músicas</button></div>
  </div>
 </section>
 """
@@ -601,7 +687,7 @@ def pagina_vilarejo():
     festas = "".join(f"<li>{e(f)}</li>" for f in u["eventos"])
     lista_piadas = [item_video(v) for v in piadas]
     corpo = f"""
-<section class="abertura serrilha-baixo">
+<section class="abertura">
  <div class="miolo duas">
   <div>
    <h1>Vilarejo Buraco Fundo</h1>
@@ -653,7 +739,7 @@ def pagina_vilarejo():
  <div class="miolo">
   <div class="cabeca-faixa"><h2 id="t-lendas">Lendas da estrada</h2></div>
   {carrossel(lendas, "cartoes", "Lendas da região")}
-  <div class="botoes"><a class="botao" href="moradores.html">Conhecer os moradores</a><a class="botao papel" href="index.html#teste">Quem é você em Buraco Fundo?</a></div>
+  <div class="botoes"><a class="botao" href="moradores.html">Conhecer os moradores</a><a class="botao secundario" href="index.html#teste">Quem é você em Buraco Fundo?</a></div>
  </div>
 </section>
 """
@@ -670,7 +756,7 @@ def pagina_moradores():
             blocos.append(f'<section class="faixa{classe}" aria-label="{e(titulo)}"><div class="miolo"><h2>{e(titulo)}</h2>'
                           f'<ul class="grade">{"".join(folheto(p) for p in lista)}</ul></div></section>')
     corpo = f"""
-<section class="abertura serrilha-baixo">
+<section class="abertura">
  <div class="miolo">
   <h1>Os moradores de Buraco Fundo</h1>
   <p>{len(personagens)} figuras da vila, cada uma com seu bordão. Toque num folheto para conhecer a história, ou <a href="index.html#teste">faça o teste</a> e descubra qual delas é você.</p>
@@ -739,7 +825,7 @@ def quem_faz():
     caricatura = (f'<figure class="foto-vila"><img src="{retrato(silf)}" alt="Caricatura de {e(q["nome_completo"])} no Vilarejo Buraco Fundo" '
                   f'width="520" height="780" loading="lazy"><figcaption>Na vila</figcaption></figure>') if silf else ""
     titulos = {v["id"]: v["titulo"] for v in cat["videos"]}
-    botoes = "".join(f'<a class="botao{" papel" if i else ""}" href="{yt(v["id"])}" data-video="{v["id"]}" '
+    botoes = "".join(f'<a class="botao{" secundario" if i else ""}" href="{yt(v["id"])}" data-video="{v["id"]}" '
                      f'data-titulo="{e(titulos.get(v["id"], v["rotulo"]))}">{ICONE["play"]}{e(v["rotulo"])}</a>'
                      for i, v in enumerate(q.get("videos", [])))
     dados = [("Idade", f'{q["idade"]} anos' if q.get("idade") else ""), ("Nasceu em", q.get("nasceu", "")), ("Mora em", q.get("mora", ""))]
@@ -752,6 +838,7 @@ def quem_faz():
    {caricatura}
   </div>
   <div>
+   <p class="sobretitulo">O criador</p>
    <h2 id="t-quem">Quem faz o Doido Varrido</h2>
    <p class="nome-real">{e(q['nome_completo'])}</p>
    <dl class="ficha-rapida">{ficha}</dl>
@@ -775,8 +862,9 @@ def vire_morador():
         return ""
     passos = "".join(f"<li>{e(t)}</li>" for t in vm.get("passos", []))
     pacotes = "".join(
-        f'<li class="pacote"><h3>{e(p["nome"])}</h3><ul>{"".join(f"<li>{e(i)}</li>" for i in p["inclui"])}</ul>'
+        f'<li class="pacote"><h3>{e(p["nome"])}</h3>'
         + (f'<p class="preco">{e(p["preco"])}</p>' if p.get("preco") else "")
+        + f'<ul>{"".join(f"<li>{e(i)}</li>" for i in p["inclui"])}</ul>'
         + (f'<p class="prazo">Entrega em {e(p["prazo"])}</p>' if p.get("prazo") else "")
         + pedido(p["mensagem"], p.get("preco")) + "</li>"
         for p in vm.get("pacotes", []))
@@ -790,6 +878,7 @@ def vire_morador():
 <section class="faixa morador" id="vire-morador" aria-labelledby="t-morador">
  <div class="miolo duas">
   <div>
+   <p class="sobretitulo">Caricaturas</p>
    <h2 id="t-morador">{e(vm['titulo'])}</h2>
    <p class="sub">{e(vm['texto'])}</p>
    <ol class="passos">{passos}</ol>
@@ -826,11 +915,14 @@ def faixa_figurinhas():
     itens = [f'<li><img class="figurinha" src="{f["arq"]}" alt="Figurinha de {e(f["nome"])}: {e(f["texto"])}" width="512" height="512" loading="lazy"></li>'
              for f in figs]
     return f"""
-<section class="faixa" aria-labelledby="t-figs">
+<section class="faixa clara" id="figurinhas" aria-labelledby="t-figs">
  <div class="miolo">
   <div class="cabeca-faixa">
-   <h2 id="t-figs">Figurinhas grátis pro seu WhatsApp</h2>
-   <p><a class="ver-mais" href="figurinhas.html">Ver todas e baixar</a></p>
+   <div>
+    <p class="sobretitulo">Diversão</p>
+    <h2 id="t-figs">Figurinhas grátis pro seu WhatsApp</h2>
+   </div>
+   <a class="botao secundario" href="figurinhas.html">Ver todas e baixar</a>
   </div>
   <p class="sub">{len(figs)} figurinhas com os moradores de Buraco Fundo e os bordões deles. É só baixar e usar.</p>
   {carrossel(itens, "figurinhas-trilho", "Figurinhas")}
@@ -850,18 +942,18 @@ def pagina_figurinhas():
     convite = "Olha as figurinhas grátis do Doido Varrido Show pro WhatsApp!" + (f" {endereco}/figurinhas.html" if endereco else "")
     grade = "".join(
         f'<li><figure><img class="figurinha" src="{f["arq"]}" alt="Figurinha de {e(f["nome"])}: {e(f["texto"])}" width="512" height="512" loading="lazy">'
-        f'<figcaption><a class="botao papel" href="{f["arq"]}" download>Baixar</a></figcaption></figure></li>'
+        f'<figcaption><a class="botao secundario" href="{f["arq"]}" download>Baixar</a></figcaption></figure></li>'
         for f in figs)
-    botao_pacote = (f'<a class="botao verde" href="{e(pacote)}" target="_blank" rel="noopener">{ICONE["whats"]}Adicionar o pacote no WhatsApp</a>'
+    botao_pacote = (f'<a class="botao" href="{e(pacote)}" target="_blank" rel="noopener">{ICONE["whats"]}Adicionar o pacote no WhatsApp</a>'
                     if pacote else "")
     corpo = f"""
-<section class="abertura serrilha-baixo">
+<section class="abertura">
  <div class="miolo">
   <h1>Figurinhas grátis do Doido Varrido</h1>
   <p>{len(figs)} figurinhas com os moradores do Vilarejo Buraco Fundo, cada um com o seu bordão. Pode baixar, usar e mandar pros amigos.</p>
   <div class="botoes">
    {botao_pacote}
-   <a class="botao papel" href="https://wa.me/?text={quote(convite)}" target="_blank" rel="noopener">{ICONE['whats']}Mandar pra um amigo</a>
+   <a class="botao secundario" href="https://wa.me/?text={quote(convite)}" target="_blank" rel="noopener">{ICONE['whats']}Mandar pra um amigo</a>
   </div>
  </div>
 </section>
@@ -888,7 +980,7 @@ def pagina_figurinhas():
 </section>
 """
     pagina("figurinhas.html", f"Figurinhas grátis do {cfg['nome']}",
-           f"{len(figs)} figurinhas grátis do Vilarejo Buraco Fundo para o WhatsApp.", corpo, "", imagem=figs[0]["arq"])
+           f"{len(figs)} figurinhas grátis do Vilarejo Buraco Fundo para o WhatsApp.", corpo, "index.html#diversao", imagem=figs[0]["arq"])
 
 
 def pagina_patrocinio():
@@ -912,13 +1004,13 @@ def pagina_patrocinio():
     chamada = fala(corneteiro, e("Plantão extraordinário! Tem lugar na vila pra sua loja. Chama no WhatsApp que a gente conversa."),
                    f'{e(corneteiro["nome"])}, locutor da Rádio Buraco Fundo FM') if corneteiro else ""
     corpo = f"""
-<section class="abertura serrilha-baixo">
+<section class="abertura">
  <div class="miolo">
   <h1>{e(pt['titulo'])}</h1>
   <p>{e(pt['texto'])}</p>
   <div class="botoes">
    <a class="botao" href="{e(wa(pt['mensagem']))}" target="_blank" rel="noopener">{ICONE['whats']}Quero anunciar</a>
-   <a class="botao papel" href="#numeros">Ver os números</a>
+   <a class="botao secundario" href="#numeros">Ver os números</a>
   </div>
  </div>
 </section>

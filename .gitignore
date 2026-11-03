@@ -5,3 +5,4 @@ artes/
 dados/comentarios_candidatos.json
 __pycache__/
 *.pyc
+streaming/
