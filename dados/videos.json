@@ -1,13 +1,25 @@
 {
  "canal": {
   "inscritos": 5040,
-  "visualizacoes": 1446869
+  "visualizacoes": 1451706
  },
  "videos": [
   {
+   "id": "JB5wK_EwP6o",
+   "titulo_original": "PIADAS DO VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR!  VOL:5 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
+   "views": 41,
+   "publicado": "2026-11-16",
+   "duracao": "9:51",
+   "familia": "Outros",
+   "genero": "",
+   "titulo": "Piadas do Vilarejo Buraco Fundo que Vão Te Fazer Chorar de Rir! Vol:5",
+   "oculto": false,
+   "repetido": false
+  },
+  {
    "id": "Z4zLZufQiyA",
    "titulo_original": "Forró e Vaquejada — Completamente Vaqueiro | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 449,
+   "views": 452,
    "publicado": "2026-11-01",
    "duracao": "6:18",
    "familia": "Vaquejada",
@@ -43,7 +55,7 @@
   {
    "id": "53ppEQ2xe-0",
    "titulo_original": "PIADAS DO DIA - VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR!  VOL: 4 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 318,
+   "views": 320,
    "publicado": "2026-10-17",
    "duracao": "12:30",
    "familia": "Piadas do Dia",
@@ -67,7 +79,7 @@
   {
    "id": "dBTr5cjn7jQ",
    "titulo_original": "Embolada — Os Dez  Mandamentos do Corno | Relançamento 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 426,
+   "views": 430,
    "publicado": "2026-10-02",
    "duracao": "4:04",
    "familia": "Embolada",
@@ -115,7 +127,7 @@
   {
    "id": "rnQT6GPSlS4",
    "titulo_original": "PIADAS DO DIA — VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR! VOL: 2 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 142,
+   "views": 143,
    "publicado": "2026-09-10",
    "duracao": "6:33",
    "familia": "Piadas do Dia",
@@ -127,7 +139,7 @@
   {
    "id": "28buD2qwJXA",
    "titulo_original": "Cordel da Velhinha e o Chapéu na Rodoviária | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 397,
+   "views": 399,
    "publicado": "2026-09-05",
    "duracao": "3:21",
    "familia": "Cordel",
@@ -175,7 +187,7 @@
   {
    "id": "QuXin8zLrGU",
    "titulo_original": "Forró — Os Anjos do Brasil (Tudo Termina em EL) | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 260,
+   "views": 261,
    "publicado": "2026-07-31",
    "duracao": "3:39",
    "familia": "Forró",
@@ -235,7 +247,7 @@
   {
    "id": "hV1soHbcrx4",
    "titulo_original": "Forró Cômico — Sogra Não É Parente, É Prova de Fé | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 796,
+   "views": 797,
    "publicado": "2026-06-30",
    "duracao": "3:19",
    "familia": "Forró",
@@ -248,7 +260,7 @@
    "id": "Qx3fGu83VIE",
    "titulo_original": "Embolada — Antônimo de Fumo é Vortemo | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
    "views": 2800,
-   "publicado": "2026-06-30",
+   "publicado": "2026-06-18",
    "duracao": "5:52",
    "familia": "Embolada",
    "genero": "Embolada",
@@ -259,7 +271,7 @@
   {
    "id": "jJQqPG1aehk",
    "titulo_original": "Forró — Oração dos Homens | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 707,
+   "views": 708,
    "publicado": "2026-06-11",
    "duracao": "4:32",
    "familia": "Forró",
@@ -679,7 +691,7 @@
   {
    "id": "ebz0Jwr0cFw",
    "titulo_original": "Forró — Caipira Sábio “A Costela do Homem” | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 9400,
+   "views": 9500,
    "publicado": "2026-01-29",
    "duracao": "2:56",
    "familia": "Forró",
@@ -716,7 +728,7 @@
    "id": "FtscifmWlWY",
    "titulo_original": "Pisadinha — Garçom, Tem Pitú??? | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
    "views": 2200,
-   "publicado": "2026-01-29",
+   "publicado": "2026-01-17",
    "duracao": "2:53",
    "familia": "Pisadinha",
    "genero": "Pisadinha",
@@ -956,7 +968,7 @@
    "id": "IayhUOhtnMg",
    "titulo_original": "Forró — Nem Chorar Eu Posso! Um forró cômico pra rir da própria confusão | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
    "views": 6900,
-   "publicado": "2025-12-30",
+   "publicado": "2025-12-17",
    "duracao": "2:19",
    "familia": "Forró",
    "genero": "Forró",
@@ -1275,19 +1287,7 @@
    "titulo": "O Que Tem Debaixo do Tapete do Hospício?",
    "oculto": false,
    "repetido": false
-  },
-  {
-   "id": "JB5wK_EwP6o",
-   "titulo_original": "PIADAS DO VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR!  VOL:5 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 24,
-   "publicado": null,
-   "duracao": "9:51",
-   "familia": "Outros",
-   "genero": "",
-   "titulo": "Piadas do Vilarejo Buraco Fundo que Vão Te Fazer Chorar de Rir! Vol:5",
-   "oculto": false,
-   "repetido": false
   }
  ],
- "atualizado_em": "2026-11-16T19:33+00:00"
+ "atualizado_em": "2026-11-17T18:31+00:00"
 }
