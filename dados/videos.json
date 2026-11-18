@@ -1,13 +1,13 @@
 {
  "canal": {
-  "inscritos": 5040,
-  "visualizacoes": 1451706
+  "inscritos": 5050,
+  "visualizacoes": 1453970
  },
  "videos": [
   {
    "id": "JB5wK_EwP6o",
    "titulo_original": "PIADAS DO VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR!  VOL:5 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 41,
+   "views": 45,
    "publicado": "2026-11-16",
    "duracao": "9:51",
    "familia": "Outros",
@@ -19,7 +19,7 @@
   {
    "id": "Z4zLZufQiyA",
    "titulo_original": "Forró e Vaquejada — Completamente Vaqueiro | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 452,
+   "views": 458,
    "publicado": "2026-11-01",
    "duracao": "6:18",
    "familia": "Vaquejada",
@@ -79,7 +79,7 @@
   {
    "id": "dBTr5cjn7jQ",
    "titulo_original": "Embolada — Os Dez  Mandamentos do Corno | Relançamento 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 430,
+   "views": 432,
    "publicado": "2026-10-02",
    "duracao": "4:04",
    "familia": "Embolada",
@@ -139,7 +139,7 @@
   {
    "id": "28buD2qwJXA",
    "titulo_original": "Cordel da Velhinha e o Chapéu na Rodoviária | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 399,
+   "views": 400,
    "publicado": "2026-09-05",
    "duracao": "3:21",
    "familia": "Cordel",
@@ -151,7 +151,7 @@
   {
    "id": "GXHpYcqK0ZE",
    "titulo_original": "Forró e Vaquejada — A Morena É a Máquina | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 934,
+   "views": 936,
    "publicado": "2026-08-30",
    "duracao": "3:09",
    "familia": "Vaquejada",
@@ -247,7 +247,7 @@
   {
    "id": "hV1soHbcrx4",
    "titulo_original": "Forró Cômico — Sogra Não É Parente, É Prova de Fé | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 797,
+   "views": 798,
    "publicado": "2026-06-30",
    "duracao": "3:19",
    "familia": "Forró",
@@ -271,7 +271,7 @@
   {
    "id": "jJQqPG1aehk",
    "titulo_original": "Forró — Oração dos Homens | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 708,
+   "views": 709,
    "publicado": "2026-06-11",
    "duracao": "4:32",
    "familia": "Forró",
@@ -307,7 +307,7 @@
   {
    "id": "A51T5pzAaks",
    "titulo_original": "PARA TUDO! Se você já viveu de verdade, esse recado é pra você... | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 161,
+   "views": 162,
    "publicado": "2026-05-31",
    "duracao": "2:48",
    "familia": "Outros",
@@ -404,7 +404,7 @@
    "id": "hAyRAoutQm0",
    "titulo_original": "Forró — Mentira, mentira, mentiraaa! | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
    "views": 2300,
-   "publicado": "2026-04-30",
+   "publicado": "2026-04-19",
    "duracao": "4:52",
    "familia": "Forró",
    "genero": "Forró",
@@ -956,7 +956,7 @@
    "id": "xvZi2xZtDRM",
    "titulo_original": "Forró — O Papagaio Revoltado | Forró Cômico | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
    "views": 3300,
-   "publicado": "2025-12-30",
+   "publicado": "2025-12-18",
    "duracao": "2:02",
    "familia": "Forró",
    "genero": "Forró",
@@ -1289,5 +1289,5 @@
    "repetido": false
   }
  ],
- "atualizado_em": "2026-11-17T18:31+00:00"
+ "atualizado_em": "2026-11-18T18:00+00:00"
 }
