@@ -1,13 +1,13 @@
 {
  "canal": {
-  "inscritos": 5050,
-  "visualizacoes": 1453970
+  "inscritos": 5060,
+  "visualizacoes": 1455210
  },
  "videos": [
   {
    "id": "JB5wK_EwP6o",
    "titulo_original": "PIADAS DO VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR!  VOL:5 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 45,
+   "views": 47,
    "publicado": "2026-11-16",
    "duracao": "9:51",
    "familia": "Outros",
@@ -19,7 +19,7 @@
   {
    "id": "Z4zLZufQiyA",
    "titulo_original": "Forró e Vaquejada — Completamente Vaqueiro | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 458,
+   "views": 459,
    "publicado": "2026-11-01",
    "duracao": "6:18",
    "familia": "Vaquejada",
@@ -79,7 +79,7 @@
   {
    "id": "dBTr5cjn7jQ",
    "titulo_original": "Embolada — Os Dez  Mandamentos do Corno | Relançamento 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 432,
+   "views": 435,
    "publicado": "2026-10-02",
    "duracao": "4:04",
    "familia": "Embolada",
@@ -151,7 +151,7 @@
   {
    "id": "GXHpYcqK0ZE",
    "titulo_original": "Forró e Vaquejada — A Morena É a Máquina | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 936,
+   "views": 937,
    "publicado": "2026-08-30",
    "duracao": "3:09",
    "familia": "Vaquejada",
@@ -247,7 +247,7 @@
   {
    "id": "hV1soHbcrx4",
    "titulo_original": "Forró Cômico — Sogra Não É Parente, É Prova de Fé | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 798,
+   "views": 799,
    "publicado": "2026-06-30",
    "duracao": "3:19",
    "familia": "Forró",
@@ -271,7 +271,7 @@
   {
    "id": "jJQqPG1aehk",
    "titulo_original": "Forró — Oração dos Homens | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 709,
+   "views": 710,
    "publicado": "2026-06-11",
    "duracao": "4:32",
    "familia": "Forró",
@@ -608,7 +608,7 @@
    "id": "ZfZ8wohsAFI",
    "titulo_original": "Embolada — Os Dez Mandamentos da Fofoca | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
    "views": 2800,
-   "publicado": "2026-02-28",
+   "publicado": "2026-02-18",
    "duracao": "4:10",
    "familia": "Embolada",
    "genero": "Embolada",
@@ -655,7 +655,7 @@
   {
    "id": "fEXn89km-tE",
    "titulo_original": "Xote — Mulher se Veste Pra Mulher | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 6100,
+   "views": 6200,
    "publicado": "2026-02-04",
    "duracao": "4:07",
    "familia": "Forró",
@@ -691,7 +691,7 @@
   {
    "id": "ebz0Jwr0cFw",
    "titulo_original": "Forró — Caipira Sábio “A Costela do Homem” | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 9500,
+   "views": 9600,
    "publicado": "2026-01-29",
    "duracao": "2:56",
    "familia": "Forró",
@@ -1027,7 +1027,7 @@
   {
    "id": "iY1ZZ7wudo4",
    "titulo_original": "Embolada - Os Dez Mandamentos do Corno – Embolada Cômica Nordestina",
-   "views": 216000,
+   "views": 217000,
    "publicado": "2025-12-08",
    "duracao": "3:44",
    "familia": "Embolada",
@@ -1135,7 +1135,7 @@
   {
    "id": "Aysl22G1yvo",
    "titulo_original": "Forró — Boteco Nutella Não Dá, Meu Fio! – Eu quero boteco raiz, com cadeira de plástico",
-   "views": 7300,
+   "views": 7400,
    "publicado": "2025-11-15",
    "duracao": "3:06",
    "familia": "Forró",
@@ -1183,7 +1183,7 @@
   {
    "id": "biJIfezAzt0",
    "titulo_original": "Sertanejo — Amor da Minha Vida | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 597,
+   "views": 598,
    "publicado": "2025-11-06",
    "duracao": "2:33",
    "familia": "Românticas",
@@ -1195,7 +1195,7 @@
   {
    "id": "FgLRNDnE7wI",
    "titulo_original": "Sertanejo Clássico — Quando Menos Esperei Um Amor Que Chegou Pra Ficar | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 649,
+   "views": 650,
    "publicado": "2025-11-06",
    "duracao": "2:56",
    "familia": "Românticas",
@@ -1289,5 +1289,5 @@
    "repetido": false
   }
  ],
- "atualizado_em": "2026-11-18T18:00+00:00"
+ "atualizado_em": "2026-11-19T18:14+00:00"
 }
