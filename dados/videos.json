@@ -1,13 +1,13 @@
 {
  "canal": {
   "inscritos": 5080,
-  "visualizacoes": 1464796
+  "visualizacoes": 1466213
  },
  "videos": [
   {
    "id": "JB5wK_EwP6o",
    "titulo_original": "PIADAS DO VILAREJO BURACO FUNDO QUE VÃO TE FAZER CHORAR DE RIR!  VOL:5 | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 76,
+   "views": 79,
    "publicado": "2026-11-15",
    "duracao": "9:51",
    "familia": "Outros",
@@ -19,7 +19,7 @@
   {
    "id": "Z4zLZufQiyA",
    "titulo_original": "Forró e Vaquejada — Completamente Vaqueiro | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 472,
+   "views": 475,
    "publicado": "2026-11-01",
    "duracao": "6:18",
    "familia": "Vaquejada",
@@ -115,7 +115,7 @@
   {
    "id": "wGqRw_rLK8Y",
    "titulo_original": "Medo de Amar, Amar Sem Medo | Forró e Vaquejada | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 832,
+   "views": 834,
    "publicado": "2026-09-13",
    "duracao": "4:00",
    "familia": "Vaquejada",
@@ -247,7 +247,7 @@
   {
    "id": "hV1soHbcrx4",
    "titulo_original": "Forró Cômico — Sogra Não É Parente, É Prova de Fé | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 801,
+   "views": 805,
    "publicado": "2026-06-21",
    "duracao": "3:19",
    "familia": "Forró",
@@ -271,7 +271,7 @@
   {
    "id": "jJQqPG1aehk",
    "titulo_original": "Forró — Oração dos Homens | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 711,
+   "views": 712,
    "publicado": "2026-06-11",
    "duracao": "4:32",
    "familia": "Forró",
@@ -307,7 +307,7 @@
   {
    "id": "A51T5pzAaks",
    "titulo_original": "PARA TUDO! Se você já viveu de verdade, esse recado é pra você... | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 162,
+   "views": 163,
    "publicado": "2026-05-31",
    "duracao": "2:48",
    "familia": "Outros",
@@ -547,7 +547,7 @@
   {
    "id": "hObhE4K1JmY",
    "titulo_original": "Forró Vaquejada — Saudades Que Machuca | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 953,
+   "views": 954,
    "publicado": "2026-03-10",
    "duracao": "4:12",
    "familia": "Vaquejada",
@@ -895,7 +895,7 @@
   {
    "id": "5KdE5qg9hDs",
    "titulo_original": "Country — Maior Que o Medo | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 356,
+   "views": 357,
    "publicado": "2025-12-30",
    "duracao": "4:39",
    "familia": "Românticas",
@@ -1051,7 +1051,7 @@
   {
    "id": "3NUnzdmqNbI",
    "titulo_original": "Brega  - Volta Que o Café Esfria | 𝓢𝓲𝓵𝓯𝓪𝓻𝓷𝓷𝓮𝔂 𝓥𝓪𝓵𝓮𝓷𝓬̧𝓪",
-   "views": 317,
+   "views": 318,
    "publicado": "2025-12-02",
    "duracao": "3:19",
    "familia": "Românticas",
@@ -1100,7 +1100,7 @@
    "id": "t5xbXaAacwc",
    "titulo_original": "Cordel – O Humor que Só o Nordeste Tem é Risada Garantida no Sertão",
    "views": 2500,
-   "publicado": "2025-11-29",
+   "publicado": "2025-11-24",
    "duracao": "3:21",
    "familia": "Cordel",
    "genero": "Cordel",
@@ -1289,5 +1289,5 @@
    "repetido": false
   }
  ],
- "atualizado_em": "2026-11-23T21:16+00:00"
+ "atualizado_em": "2026-11-24T20:08+00:00"
 }
